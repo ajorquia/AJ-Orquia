@@ -2,6 +2,6 @@
 
 This site will host a variety of projects and musings. 
 
-![z-engine-removal]( zproject.jpg ) 
+![gulf-of-mexico]( ocean_hdr.jpg ) 
 ### Introduction
 I'm an engineer by trade, currently I work as a student pilot.  
