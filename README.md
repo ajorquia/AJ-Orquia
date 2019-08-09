@@ -1,4 +1,4 @@
-## Welcome to Orquia.com
+## Aaron Orquia
 
 This site will host a variety of projects and musings. 
 
