@@ -1,5 +1,3 @@
-## Aaron Orquia
-
 ![gulf-breeze]( gulf.jpg ) 
 
 ### Introduction
