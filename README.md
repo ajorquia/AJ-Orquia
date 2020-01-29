@@ -1,7 +1,7 @@
 ## Aaron Orquia
 
-This site will host a variety of projects and musings. 
+This site will house certain things that I post.
 
-![gulf-of-mexico]( ocean_hdr.jpg ) 
+![gulf-breeze]( gulf.jpg ) 
 ### Introduction
-I'm an engineer by trade, currently I work as a student pilot.  
+I'm a student pilot from Georgia with a Mechanical Engineering degree and an interest in aviation, computing, free software, and old cars that barely work.
