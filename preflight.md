@@ -9,7 +9,7 @@ This page contains useful links.
 
 **TOLD**
 
-| Temperature (C) | Torque (%) | Max Abort (Wet) (ft) | T/O Roll (ft) | NF LDG Dry (ft) | NF LDG Wet (ft) |
+| Temp (C) | Torque (%) | Max Abort (Wet) (ft) | T/O Roll (ft) | NF LDG Dry (ft) | NF LDG Wet (ft) |
 | -- | --- | -- | ---- | ---- | ---- |
 | 05 | 100 | 77 | 1600 | 3800 | 4900 |
 | 10 | 100 | 76 | 1650 | 3850 | 5000 |
