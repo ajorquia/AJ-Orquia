@@ -8,7 +8,6 @@ This page contains useful links.
 - [Flight Weather Brief](https://fwb.metoc.navy.mil/ "Flight Weather Briefer")
 
 **TOLD**
-
 | Temperature (C) | Torque (%) | Max Abort (Wet) (ft) | T/O Roll (ft) | NF LDG Dry (ft) | NF LDG Wet (ft) |
 | -- | --- | -- | ---- | ---- | ---- |
 | 05 | 100 | 77 | 1600 | 3800 | 4900 |
