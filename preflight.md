@@ -1,10 +1,10 @@
 This page contains useful links.
 
-- [Skyvector](https://skyvector.com/ "Skyvector")
+- [Skyvector](https://skyvector.com/?ll=30.76827114056944,-86.90624999422171&chart=301&zoom=6 "Skyvector")
 - [METAR/TAF](https://www.aviationweather.gov/taf/data?ids=KNSE+KNDZ+KPNS+KNPA+KGZH+K12J+KJKA+KMOB&format=raw&metars=on&date=&submit=Get+TAF+data "METAR/TAF")
 - [NOTAMS](https://www.notams.faa.gov/dinsQueryWeb/ "NOTAMS")
 - [Avian Hazards](https://www.usahas.com/ "Avian Hazards")
-- [TFRs](https://tfr.faa.gov/tfr2/list.html "TFRs")
+- [TFRs](https://tfr.faa.gov/tfr_map_ims/html/ns/scale4/tile_6_7.html "TFRs")
 - [Flight Weather Brief](https://fwb.metoc.navy.mil/ "Flight Weather Briefer")
 
 **TOLD**
