@@ -6,6 +6,7 @@ This page contains useful links.
 - [Avian Hazards](https://www.usahas.com/ "Avian Hazards")
 - [TFRs](https://tfr.faa.gov/tfr_map_ims/html/ns/scale4/tile_6_7.html "TFRs")
 - [Flight Weather Brief](https://fwb.metoc.navy.mil/ "Flight Weather Briefer")
+- [VentuSky](https://www.ventusky.com/?p=30.86;-87.11;8&l=temperature-2m"Winds")
 
 **TOLD**
 
