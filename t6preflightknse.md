@@ -1,4 +1,4 @@
-This page contains useful links.
+This page contains links some may find useful.
 
 - [Skyvector](https://skyvector.com/?ll=30.76827114056944,-86.90624999422171&chart=301&zoom=6 "Skyvector")
 - [METAR/TAF](https://www.aviationweather.gov/taf/data?ids=KNSE+KNDZ+KPNS+KNPA+KGZH+K12J+KJKA+KMOB&format=raw&metars=on&date=&submit=Get+TAF+data "METAR/TAF")
