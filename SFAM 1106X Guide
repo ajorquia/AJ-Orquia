@@ -1,0 +1,89 @@
+SFAM 1106
+
+Ground Resonance Procedure
+-Immediate corrective action at the onset of ground resonance is imperative to prevent structural damage. Proceed as follows:
+*1. If able - Take off.
+*2. If unable to take off - Emergency shutdown.
+-Ground resonance is a self-excied vibration cuased by unfavorable dynamic coupling between lead-lag motions of the rotor blades on their hinges and the motions at the main rotor head in the plane of the rotor.
+-Ground resonance vibration in the fuselage would be at a sub-harmonic frequency of about 2/3 per main rotor revolution.
+-Analysis, testing, and experience with this aircraft have not revealed any normal flight or ground conditions or likely malservice or failure modes which are subject to ground resonance.
+-Ground resonance could conceivably be caused by an unlikely combination of multiple failures involving landing gear stiffness or damping or blade lead-lag dampers. In such a case, amplitude buildup would probably be initiated by cyclic motions or a hard one-wheel landingn. 
+-If there is a reason to believe ground resonance is occuring, recover by becoming airborne. Subsequent attempts at landing should be smoothly executed.
+W: If it is necessary to engage the rotor while the helicopter is tied down, it is mandatory that the tiedown chains be loose, relieving any tension in the chains attached above the oleos. Engagement of the rotor while the helicopter is tied down tightly will result in ground resonance. 
+
+Oscillations
+-If encountered, proceed as follows:
+*1. Flight control - Release.
+-If oscillations do not dampen within several seconds:
+*2. External cargo - Jettison.
+
+Rotor damper failure
+-When the rotor damper fails, an unbalanced rotor condition may be felt as a low-frequency heat or lateral vibration. Rotor blades will normally stay in track. If a rotor damper is suspected of failing, do this:
+1. Make small, smooth control inputs.
+2. Slowly incrase main rotor rpm.
+3. Slowly reduce airspeed to 80 KIAS.
+4. Use small bank angles.
+5. Land as soon as practical. If vibrations become excessive:
+6. Land as soon as possible. 
+N: A shallow approach to a running landing is preferable. However, if conditions do not permit, then an approach to a touchdown (no hover) landing should be made. 
+7. After helicopter has come to a stop, accomplish an engine shutdown without use of rotor brake.
+W: A rotor damper failure could lead to ground resonance. 
+
+Vortex Ring State
+Indications:
+1. Increase in overall vibration level.
+2. Sluggish control response.
+3. Inability to arrest rate of descent with collective.
+Procedures: 
+*1. Immediately apply forward cyclic to increase airspeed above 40 KIAS.
+Altitude Permitting:
+*2. Lower the collective to a power setting at or below bucket airspeed power required. 
+N: A reduction in collective is inadvisable for low altitude flight because it will produce higher descent rates. Instead pilots should maneuver away from the vortex ring using cyclic control while maintaining collective to facilitate recovery from the rapid descent rate developed during VRS.
+N: Maneuvers, in general, are known to suppress the development and symptoms of VRS. If there are no obstacles to the side of the flight path, turning or sliding laterally can assist in the recovery. 
+
+Pr>Pa
+Indications:
+1. Descent rate (uncommanded) while power limited
+2. Reduction in rotor RPM if power demand continues to increase.
+3. Loss of tail rotor authroity.
+Procedures:
+*1. Collective - Maintain Nr/Reduce torque setting to at or below minimum power available.
+*2. Airspeed - Adjust the cyclic to obtain your bucket airspeed.
+*3. Pickle - External load as required.
+*4. Tanks - Jettison and/or Dump as required.
+*5. Speed control levers - Full Forward.
+6. Cease banked maneuver and restore wings to level attitude.
+7. Open EAPS  (As required).
+8. Turn off ENGINE ANTI-ICE (As required). 
+
+Dynamic Rollover
+-Dynamic rollover is the result of the helivopter developint too much angular momentum about a wheel in contact with the ground. It can occur during takeoff and landing on slopes, on corrugated steel matting or macadam, or during a deck launch with one gear still chained. The helicopter can roll over from a level attitude if a high sideward velocity (drift) occurs at touchdown and the wheel is prevented from sliding. In this condition the upsetting rolling moment is caused by the momentum of the helicopter acting about the wheel ground-contact point. Thus, the wheel restraing converts the linear translation (drift) into an angular motion (roll rate) or angular momentum. The roll rate can be very large, depending on the sink and drift speeds, and the degree of wheel restraint. The resulting roll rate may be checked with opposite lateral cyclic, but lateral control will be sluggish (as described above) and will be limited by control range (stops). As in slope landing, and in all cases, smooth reduction of collective is the most effective corrective action the pilot can take to prevent dynamimc rollover. If lateral cyclic cannot be displaced far enough to tilt the rotor lift line-of action outside the wheel tread, then rotor lift adds to the upsetting moment. Since rotor lift opposes the only restoring force, helicopter weight, lift should be reduced. Thus, collective should be lowered if it appears that lateral control is ineffective, even though it has not yet contacted the stop. Since the AFCS is limited in authority (+/- 10%) and is subject to the same reduction in control power, its effectiveness in countering dynamic rollover is severely limited. For this reason, the pilot must observe the following procedures with caution.
+
+Electrical Fire
+-In case of an electrical fire, attempt to isolate the affected circuits by selectively securing electrical equipment or pulling circuit breakers. If fire persists, land immediately; while in flight, do as follows:
+WL Turning all generators off will result in immediate loss of all electrical instruments, warning systems, ICS, and AFCS, except servo 1. Helicopter response to total electrical loss may be violent. Landing gear my only be extended by the emergency method, and a positive gear down check will not be possible. Consideration sohuld be given to all problems before turning all generators off.
+*1. Circuit breaker (for affected circuit) - Pull.
+*2. Fight fire with portable fire extinguisher.
+*3. If fire persists - Land immediately.
+
+AC System Failure
+-The alternating current system, powered by three AC generators, is so designed that failure of a generator will cause the No. 1 and No. 3 monitor AC buses to be dropped from the system and the operating generators to power all other buses. If a generator failure caution light should illuminate, place the appropriate generator switch to RESET/OFF and return it to ON. This will restore generator service if the malfunction was caused by momentary overvoltage or undervoltage.
+-If a generator caution light is accompanied by a humming/whirring/grinding noise, do not attempt to RESET the affected generator.
+1. Affected generator - Reset/Off, then On
+2. If one or two generators fail - Land as soon as practical.
+3. If all generators fail or if two generators fail during night, instrument, or icing conditions - Land as soon as possible. 
+4. Failure of any generator with a simultanious supervisory panel failure will result in loss of the associated primary AC bus. If this occurs during night IMC - Land as soon as possible. 
+N: When operating the aricraft with the No 1 generator on, and the No. 2 and No. 3 generators off or failed, the No. 3 primary AC bus will be lost failing the No. 2 AFCS computer, AHRS, TACAN, VOR, all three BDHIs, and the radar altimeter. Additionally, for No. 2 Gen, NO 3 Gen, No. 2 Rect, BIM, C/G Hook INOP caution lights and the AFCS control panel will display a simplex failure.
+
+DC System Failure
+1. If either rectifier fails - Land as soon as practical.
+2. Extend landing gear.
+3. If both rectifiers should fail, or if either rectifier fails at night or during instrument conditions, land as soon as possible. 
+
+Lightning Strike
+-Lightning strike can occur while flying in the vicinity of thunderstorms. Damage to main and tail rotor blades in the form of arcing, erosion, and heat annealing will result. Enginnering analysis of blades subjected to an actual in-flight lightning strike concluded that the damage to the blades can be so severe that the fatigue life would be reduced to a few hours or even minutes. If a lightning strike is suspected, the helicopter should be landed and inspected. In past cases, major hidden damage was inflicted and was associated with minor appearing visible/external damage to the spot or pockets; however, no hidden damage was found without visible/external indications of some kind. 
+-If lightning strike suspsected:
+*1. Airspeed - 80 KIAS
+*2. Land as soon as possible.
+
+Most conservative response rule, two-challenge rule, and task saturation with compound emergencies

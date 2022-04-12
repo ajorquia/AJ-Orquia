@@ -1,0 +1,237 @@
+SFAM 1104X
+
+Engine Chip Detector Light
+-An engine chip locator light accompanied by unusual vibrations and/or low oil pressure/high oil temperature, or an engine chip locator light returning after resetting circuit breaker without the above indications, is cause to suspect probable engine failure. If an engine chip detector light goes on, do this:
+*1. Instruments/caution lights - Check
+-If secondary indications are present (vibrations/low oil pressure/high oil temperature).
+*2. Perform Single or Dual-Engine Failure procedures.
+-If the chip light is not accompanied by secondary indications:
+*3 Pull and reset engine chip circuit breaker.
+If chip locator light returns after circuit breaker is reset:
+4. Perform Single or Dual-Engine Failure procedures.
+-If chip locator light remains off:
+5. Continue mission, monitoring engine performance closely.
+W: Level single or dual-engine flight and/or safe single or dual-engine hover landings may not be possible at certain combinations of helicopter gross weight and density altitude. Flight conditions may require that the decision to establish single or dual-engine flight be deferred until a safe descent is possible. Select landing site suitable for a running landing if available. 
+
+Control Linkage Failure
+Failure type: Speed control lever linkage disengaged
+Symptoms:
+a. When all speed control levers are advanced simultaneously, affected engine parameters (T5, Ng, Q) will decrease as normal engine parameters increase.
+b. When all speed control levers are retarded simultaneously, affected engine parameters (T5, Ng, Q) will increase as normal engine parameters decrease.
+If these symptoms occur:
+1. Match torques using normal engine speed control levers.
+2. If Nf exceeds desired limits, reduce speed control lever position on normal engine(s) to decrease Nf/Nr.
+3. Use fuel selector lever of affected engine(s) to secure engine. 
+Failure type: Collective compensation linkage (Collective bias) disengaged.
+Symptoms:
+a. Reduced torque response on affected engine with change in collective position.
+b. Noticable torque split with change in collective position.
+c. Rotor droop with increased collective input. 
+If these symptoms occur:
+1. Trim engine speed control levers to maintain Nf/Nr.
+2. Retrim, with load change, as necessary.
+N: Expect unusually large torque splits at high load conditions. 
+
+Power Deterioration
+Cause: Extended Hover over salt water.
+Symptoms:
+a. T5 and Ng slowly increasing, torque setting, Nf, and Nr remain constant, all engines.
+b. Power can decrease below limits of single-point performance check.
+If these symptoms occur:
+1. Record low power indications for maintenance action.
+2. Increase hover altitude to reduce salt buildup/power reduction rate.
+3. Abort mission if power deterioration is excessive.
+N: A T5 increase of 40 Celsius at constant Q is equal to a power loss of about 10%.
+Cause: Compressor fouling.
+Symptoms:
+a. Reduced power output at any Ng/T5 condition.
+b. Power can decrease below limits of single-point performance check.
+If these symptoms occur:
+1. Record low power information for maintenance action.
+2. Abort mission if power deterioration is excessive.
+Cause: Compressor and turbine erosion/FOD
+Symptoms:
+a. Reduced power output at any Ng/T5 condition.
+b. Engine may fail to pass single-point performance check.
+c. In serious instances of FOD, compressor stall/power loss may occur (See Compressor Stall).
+If these symptoms occur:
+1. Record unusual symptoms and power data for maintenance action. 
+2. Abort mission if power deterioration is excessive.
+Cause: Stator vane schedule shift.
+Symptoms:
+a. Unusual Ng/T5 relationship on low power engine. 
+b. Low power engine may stall during overspeed check, deceleration, or acceleration. 
+c. Low power engine ground idle speed may shift to or below minimum ground idle limit.
+If these symptoms occur:
+1. Record unusual symptoms and power data for maintenance action. 
+2. Abort mission if power deterioration is excessive. 
+Cause: Excessive engine air bleed/leakage
+Symptoms:
+a. High T5 for given Ng on low-power engine.
+If these symptoms occur:
+1. Record unusual symptoms and power data for maintenance action. 
+2. Turn anti-icing system of low-power engine ON; look for slight increase in T5. Turn system OFF; look for slight decrease in T5. If T5 remains steady, anti-ice system is inoperative.
+3. Abort mission if power deterioration is excessive. 
+
+Oil/Lubrication System Malfunctions
+Symptom:Engine Oil Pressure High Caution Light
+Cause: 
+a. Cold oil
+b. Plugged lube jet
+If this light illuminates:
+1. Maintain reduced speed/power on affected engine until engine oil temperature is within normal operating range.
+2. If critical power requirements exist, reduce power of affected engine to minimum needed for immediate requirements.
+3. Transition to single or dual-engine operating procedures as quickly as possible, and secure affected engine as instructed under engine shutdown in flight. 
+Symptom: Engine Oil Pressure Low Caution Light
+N: Low pressure light may come on at ground idle if Ng is at or near minimum limit. 
+If this light illuminates:
+1. If critical power requirements exist, reduce power of affected engine to minimum needed for immediate requirements.
+2. Transition to single or dual-engine operating procedures as quickly as possible, and secure affected engine as instructed under engine shutdown in flight. 
+Symptom: High Oil Temperature
+N: Oil temperature may approach maximum limit during sustained high load condition at high ambient temperatures.
+If this light illuminates:
+1. Reduce power of affected engine to minimum needed for immediate requirements.
+2. If engine oil temperature decreases to within maximum limit, continue to operate the affected engine at reduced power. 
+3. If engine oil temperature continues to exceed maximum operating limits, transition to single or dual-engine operating procedures as quickly as possible, and secure engine as instructed under engine shutdown in flight.
+Symptom: Engine Oil Quantity Low
+1. Replenish from auxillary oil tank.
+W: Level single or dual-engine flight and/or safe single or dual-engine hover landing may not be possible at certain combinations of helicopter gross weight and density altitude. Flight conditions may require that the decision to establish single or dual-engine flight be deferred until a safe descent is possible. Select landing site suitable for running landing if available.
+W: If the No. 2 engine must be operated at less than 75% Ng, hot exhaust gas may backflow into the engine compartment creating a fire hazard. Limit airspeed to less than 85 KIAS to reduce backflow. If dual-engine flight can be maintained, consideration should be given to securing the No. 2 engine.
+
+Nose Gearbox Failure
+-Nose gearbox failure may be indicated by an abnormal noise or change in noise frequency. A malfunction that would cause a binding or restriction within the gearbox will cause a high engine torque reading to be observed. A malfunction that would cause a no-load condition on the engine should produce a tendency for the engine to overspeed. If indications of nose gearbox failure are noted, do this:
+*1. Instruments and caution lights - Check.
+*2. Collective - Maintain Nr.
+*3. Airspeed - As required.
+*4. Pickle - External load as required.
+*5. Tanks - Jettison as required.
+*6. Speed control levers - As required (shut off affected engine, conditions permitting).
+7. Land as soon as practical. 
+
+Nose Gearbox Chip Locator Light
+-When the CHIP DETECTED caution light is accompanied by either of the nose gear box chip locator lights, check all other nose gearbox caution lights and gauges and engine torquemeters to verify malfunction. 
+*1. Istruments and caution lights - Check.
+*2. If malfunction verified or chip locator light does not extinguish - Perform Nose Gearbox Failure procedures.
+*3. If chip locator light extinguishes, continue mission and closely monitor nose gearbox instruments and associated caution lights.
+
+Nose Gearbox Oil System Failure
+-Loss of nose gearbox lubrication will be indicated by the nose gearbox oil temperature gauge and oil temperature and pressure caution lights. If indications of a nose gearbox oil system failure are noted, do this:
+*1. Instruments and caution lights - Check.
+*2. Perform Nose Gearbox Failure procedures. 
+
+Accessory Gearbox Failure
+-Accessory gearbox failure may be indicated by any abnormal noise. If any abnormal noise is heard, check all instruments and electrically operated equipment for adverse indications. Systems that operate from the accessory gearbox may also give adverse indications. If indications of accessory gearbox failure are noted, do this:
+1. Instruments and caution lights - Check.
+2. Landing gear - Extend.
+3. Land as soon as possible.
+
+Accessory Gearbox Chip Detector Light
+1. Instruments and caution lights - Check.
+2. If malfunction verified or chip locator light does not extinguish - Land as soon as possible.
+3. If chip locator light extinguishes - Continue mission and monitor closely.
+N: Accessory gearbox failure will result in the loss of second stage, utility, and engine start pumps, AFCS and other associated systems, and the No. 1 and No. 3 generators.
+
+Accessory Gearbox Oil System Failure
+-Loss of accessory gearbox lubrication will be indicated by the accessory gearbox oil temperature and pressure caution lights. If loss of accessory gearbox lubrication is indicated, do this:
+1. Instruments and caution lights - Check.
+2. Landing gear - Extend.
+3. Land as soon as possible.
+
+Main Gearbox Oil System Failures
+N: It is not necessary to abort a flight as a result of losing the main gearbox auxilary oil pump as indicated by the MGB AUX LUBE PUMP caution light going on. Continue mission monitoring all other main gearbox gauges, chip detector, and caution lights. Be sure condition is corrected before next flight. 
+-Loss of the main gearbox primary oil pump is indicated by a decrease in oil pressure. If the MGB OIL PRESS caution light goes on and a complete loss of oil pressure is indicated, the gearbox has lost all primary means of lubrication. In this casE:
+*1. Airspeed - As required. (Minimum power required for flight)
+*2. Altitude - Reduce.
+*3. Land as soon as possible. Duration of flight not to exceed 30 minutes.
+-If the MGB OIL PRESS and the MGB AUX lube pump caution lights both illuminate and the MGB oil pressure drops rapidly or decreases below minimum, the main gearbox has lost all means of lubrication and an immediate landing shall be made. In this casE:
+*1. Land immediately.
+-If an immediate landing cannot be made (due to flight conditions, such as IFR or high altitude), perform the following:
+1. Airspeed - Reduce to 80 KIAS or less.
+2. Retard No. 2 engine to GRD IDLE.
+C: Excessive temperatures within the No. 2 enine compartment may occur in flight with the No. 2 engine at GRD IDLE>
+3. Commence a power-on descent.
+4. Land immediately using No. 2 engine if necessary during the landing.
+W: Loss of MGB oil pressure accompanied by an increase in noise, vibrations, yaw kicks, or power surges indicates MGB seizure is imminent. 
+A malfunction of the main gearbox, or the oil cooling system that would cause improper or insufficient lubrication will be indicated by one or more of these symptoms:
+1. MGB OIL PRESS caution light goes on.
+2. MGB OIL HOT caution light goes on.
+3. Maximum or minimum indications on the main gearbox oil pressure and temperature gauges.
+If any of these indications are noted:
+1. Maintain reduced airspeed and low altitude. 
+2. Land as soon as possible. 
+3. When flying over water, return to nearest suitable landing site at reduced airspeed and low altitude. Altitude should be sufficient to permit a quick flare if en route emergency water landing is necessary. 
+If MGB oil pressure changes by 10PSI or more in flight, or drops below 45 PSI, but does not exceed maximum or minimum limits:
+1. Land as soon as practical. 
+
+Main Gearbox Chip Locator Light
+-When the CHIP DETECTED caution light is accompanied by the MAIN GB chip locator light on the chip locator panel, progressive failure of the main gearbox may be occurring. 
+*1. Instruments and caution lights - Check.
+*2. If malfunction verified by secondary indications - Land immediately. 
+*3. If malfunction not verified with secondary indications - LAND AS SOON AS POSSIBLE. When flying over water, return to nearest ship or shore at a reduced airspeed and low altitude. The altitude should be sufficient to permit a quick flare if an enroute emergency water landing is necessary.
+4. If chip detector light extinguishes, continue with mission and closely monitor all main gearbox instruments and caution lights.
+N: There is a 30 second time delay relay incorporated into the main lubrication sump and auxiliary lubricaiton sump chip detector systems. The MAIN GB chip detector light on the chip locator panel in the cabin is not affected by the 30 second time delay relay. 
+
+Main Gearbox Failure
+-Impending MGB failure may be indicated by abnormal noise from the MGB, yaw kicks, torque fluctuations, and/or unusually high power settings for given flight conditions.
+-If impending main gearbox failure is suspected:
+*1. Instruments and caution lights - Check.
+*2. Land immediately.
+W: An increase in torque for a given flight condition is an indication of a main gearbox impending failure. 
+
+Power Train Failures
+Cause: Failure between power turbine and nose gearbox.
+Symptoms (affected engine):
+a. Sudden decrease to zero on Nf and torque indications.
+b. Ng and T5 increasing until overspeed system actuation, then T5 decreasing and Ng decreasing to flight idle. 
+c. Grinding/howling noise may be heard.
+Symptoms (normal engine):
+All engine parameters increasing except Nf/Nr. If the normal engine power available is not sufficient to offset the affected engine power loss (ie total torque requirement cannot be met), Nf/Nr may droop/decay excessively, depending on the degree of power deficit. Also, if the normal engine power available is sufficient to offset the affected engine power loss (ie the total torque requirement can be met), it is normal for Nf/Nr to droop about 1% to 2% as the normal engines are forced to assume the additional load. 
+If these symptoms occur:
+*1. Collective - Maintain Nr.
+*2. Airspeed - As required.
+*3. Pickle - External load as required.
+*4. Tanks - Jettison as required.
+*5. Speed control levers - As requred (Secure engine(s))
+C: Do not attempt to restart affected entine.
+Cause: Failure in helicopter transmission system.
+Symptoms:
+a. Ng, T5 decrease.
+b. Nf - May increase to overspeed cut in (110% +/- 2%), then decrease with Ng stabilizing at flight idle speed.
+c. Torque - Decrease to zero.
+Normal engines will behave as above. Corrective action is as above. 
+
+Tail Rotor Drive System Failure
+W: Tail rotor drive system failure, in all regimes of flight, can produce violent helicopter response; therefore, recognition of impending failure is extremely important. Extended flight at a moderate airspeed si theoretically possible following tail rotor drive system failure in forward flight. Extended hovering flight is not possible following a tail rotor drive system failure.
+W: Loss of tail rotor thrust will result in exaggerated pitch and roll response to collective and/or rudder inputs due to mechanical coupling.
+In a hover or on takeoff, do the following:
+*1. Collective - Reduce (if altitude permits) to initiate a moderate rate of descent and retard rotation.
+*2. Airspeed - As required (land in level attitude).
+*3. Pickle - External load as required.
+*4. Tanks - Jettison as required. 
+*5. Speed control levers - Shut off at 5 to 20 feet AGL.
+*6. Collective - Increase (cushion landing).
+In a cruise:
+*1. Collective - Reduce (enough to stop fuselage roatation).
+*2. Airspeed - 100 to 120 KIAS.
+*3. Pickle - External load as required.
+*4. Tanks - Jettison as required.
+*5. Rudder pedals - Centered.
+*6. If directional control is not regained - Autorotate.
+W: If the tail rotor/tail rotor gearbox/tail section has/have departed the aircraft, absence of the autorotating tail rotor will necessitate an autorotative descent and landing. However, due to the forward shift of cg under such conditions, the pilot should use extreme caution during the flare recovery to avoid excessive forward pitch rates which may become uncontrollab.e 
+7. Secure all engines before increasing collective to cushion the landing.
+8. If directional control is regained, proceed with steps a. and b. 
+a. Alter bank angle and collective as required to maintain controllable flight. The magnitude of bank angle required for straight ground track will vary with airspeed and collective setting. As airspeed is reduced below 100 to 120 KIAS, a larger angle of bank or reduction in torque will be required to compensate for increased right yaw. 
+b. Land as soon as possible. 
+1. If over suitable flat terrain, attempt a running landing. Consideration should be give to landing with the landing gear up if the surface is soft/uneven and possibility of shearing the landing gear or rolling over is judged to exist. Establish 80 KIA Son final and approaching 50 to 75 feet AGL, a combination of collective reduction/aft cyclic will minimize torque and slow groundspeed to assist in aligning the nose for touchdown. Secure all engines before increasing collective to cushion the landing.
+2. If the nose will not align or terrain is too rough for running landing, accomplish landing using a moderate side flare to minimize groundspeed and drift, secure all engines in the flare and contact the ground tail first on flare and flare recovery. 
+During Landing
+-If the tail rotor drive system fails during the landing approch, the poper corrective action will depnde on the airspeed and altitude the helicopter has at the time of failure. The pilot should land the helicopter utilizing either the tail rotor system failure (cruise) landing procedure or the tail rotor drive system failure (hover and takeoff) landing procedure. It is therefore incumbent upon the pilot to select the proper procedure based upon where the helicopter is in the landing profile. 
+
+Tail Rotor Gearbox or Intermediate Gearbox Failure and Chip Detector Light
+-Other than the chip light and the TGB/IGB OIL PRESS caution lights, there are no other instruments or caution lights with which to verify impending failures. A combination of chip light and corresponding OIL PRESS caution light confirms and impending failure. Additional flight indications of impending failure may include heading control difficulty, yaw kick, high frequency vibrations, and unusual or loud grinding noises from the tail section.
+-If impending failure is imminent as noted by combination of chip and corresponding OIL PRESS light, illumination of any caution light with additional flight indication discussed above, or any of the flight indications discussed above, proceed as follows:
+*1. Land immediately.
+If only a single caution light illuminates without any additional indication of failure, proceed as follows:
+1. Land as soon as possible. 
+2. If the caution light extinguishes - Continue flight and monitor closely.
+3. If caution returns - Land as soon as possible. 

@@ -1,0 +1,160 @@
+SFAM1101X
+
+Introduce:
+
+External Fuel Tank Jettison
+-External auxilary fuel tank jettison may be required in case of single or dual-engine operations. If tank jettison is to be done, do this:
+*Airspeed - 0 to 150 knots. (Maximum airspeed in descent: 120 knots)
+*Rate of descent - Less than 1,500 feet per minute.
+*Bank angle - 0 degrees.
+*Area - Cleared if possible.
+*Place desired AUX TANK JTSN switch - ON. 
+
+Engine Start Emergencies
+-Cold Start/Hung Start (Or cold hang-up): Indicated by a failure of the gas generator to accelerate to proper idle speed, accompanied by a low T5 indication.
+-Hot Start: Indicated by failure of the gas generator to accelerate to proper idle speed, accompanied by high T5 indications. 
+-Hydraulic Start Motor does not disengage:
+-Slipping rotor Brake:
+-Perform abort engine start procedure if any of the following occur:
+    -Fuel flow exceeds 175pph before light-off at ground idle
+    -Engine light-off does not occur within 10 seconds after fuel flow indication
+    -If T5 RAPIDLY rises through 650 Celsius before Ng reaches ground idle speed
+    -Start time exceeds 60 seconds before Ng reaches ground idle speed
+    -Starter disengages prior to Ng reaching 51 percent.
+
+Ground Taxi
+-Movement of the helicopter in proximity to or on the gronud. 
+-Prior to initiating movement, ensure the pedals are centered and the nose wheel is STRAIGHT. Verify with the crew that everyone is ready for taxi. N: Attempting to taxi from a stop with a deflected nose landing gear can cause a rapid, yawing ground turn. 
+-Lower the Tip Path Plane to slightly above the horizon (approx 2 to 3 inches) and trim in the new position. Release the brakes, taking care to ensure both pedals remain centered to prevent undesired yaw and undue stress to the transition section of the tail. 
+-Smoothly raise the collective (approx. 25-30% TQ, terrain and gross weight dependant) keeping taxi director in sight, until forward motion starts. Lower the collective slightly once motion starts, as more torque is required to initiate movement than to sustain movement. 
+-When conducting a brake check, execute by simultaneously applying pressure to the wheel brakes and lowering the collective full down. Resume taxi once check is complete.
+-While in parking line area taxi speed should be 5-7 knots. Outside the line area taxi should be no faster than 8-10 knots. The nose landing gear strut should not be extended during taxi. 
+-Turns are accomplished with the pedals. However, slight cyclic in the direction of the turn should be used to compensate for coupling of the controls. Prior to straightening out of a turn, apply slight opposite pedal to align the nose wheel. Adjust the cyclic to level the rotor head at the completion of the turn. 
+-Differential braking can be used to help initiate slow turns or slow the aircraft in a turn (only if required). Do not taxi riding the brakes. 
+-To stop the aircraft, center the cyclic, fully lower collective, and smoothly apply the brakes. Anticipate and slow well before the intended stopping point. 
+-Rearward taxi can be accomplished. Care must be taken so the main rotor does not hit either the droop stops or tail pylon. 
+-Prior to turning from a stopped position, initiate forward roll and then begin the turn. As with all taxi evolutions, extreme caution must be exercised at unfamiliar locations. 
+
+Taxi Checklist
+-Two items: Brake check and turn indicators/heading indicators.
+
+Takeoff Checklist
+
+Fuel Transfer Checklist
+
+Landing Checklist
+
+Hovering
+-Execute vertical takeoff.
+-Maintain stationary position over the ground with small, smooth control inputs. Maintain aggressive hover scan by alternating between 0, 45 and 90 degree positions. Counter drift with cyclic inputs.
+-Maintain heading with pedal inputs. Heading hold resists heading change below 60 knots and must be disabled with the pedal microswitches or trim release. 
+-Maintain altitude with collective inputs. 
+
+Turns on the spot and slides
+-Ensure clear of obstacles by announcing directino of turn to the crew and waiting for crew clear calls.
+-From a stable hover, depress either the pedal trim release on the cyclic or the pedal microswitches and apply a small amount of pedal in the desired direction of turn. 
+N: The first turn is typically made to the left for power considerations.
+-As the nose moves, adjust cyclic as necessary to maintain the vertical axis over a fixed point on the ground. Adjust the pedals to maintain slow, constant rate of turn. Anticipate an increase in turn rate as the tail rotor passes through the wind line. 
+-To stop the pedal turn, apply opposite pedal to stop the yaw rate on the desired heading. Adjust other contros as necessary to eliminate drift and control altitude. 
+
+Vertical Takeoff to a Hover
+-Prior to takeoff, complete takeoff checks and stop the helicopter. Adjust cyclic to bring the TPP above that required for ground taxi, center the pedals, and smoothly increase the collective until the nose wheel strut extends with no forward or aft motion. 
+-The helicopter will lift off from a level attitude nose first, followed by right main landing gear, then left main landing gear. Use slight aft cyclic to prevent the aircraft from rolling forward and to raise the nose of the helicopter first. Maintain forward scan until after the nose wheel breaks the deck to avoid excessive yaw. As the nose wheel comes off the deck, the nose may yaw slightly left or right. If this happens, stop the collective pull and smoothly make the pedal inputs to counter heading drift. Continue increasing the collective while maintainingyaw control with pedals. As the nose gear comes off the deck, coordinate cyclic inputs to prevent drift. Continue to increase collective until the left main landing gear breaks the deck. In no wind conditions, the helicopter hovers 5-8 degrees nose up and 2-3 degrees left wing down.
+-When established in a 10' hover, compare the actual torque required with the estimated torque required calculated prior to takeoff. the PNAC will check that the engine instruments are within limits and the isolation valve open caution light has extinguished. 
+
+Transition to Forward Flight
+-From a hover, increase the torque to 5-10% above hover torque. Using the attitude gyro as a reference, lower the nose to the horizon and no lower than 5 degrees down. Maintain heading with pedals. 
+-The PNAC will montior engine gauges, bar alt, rad alt, vsi, and airspeed, and confirm their positive indications to the crew over ICS. 
+-As the aircraft accelerates, adjust collective to maintain a positive rate of climb. 
+-Continue to accelerate and climb on the reverse glideslope according to the profile that follows:
+    -Hover 10'
+    -Translational lift 10-15 knots
+    -100'AGL and 40KIAS
+    -150'AGL and 50KIAS
+    -200'AGL and 60KIAS
+
+Normal Approach to a Hover
+-Normal pattern flown at 300' AGL and 80KIAS
+-Note heading and msl
+-PNAC monitors engines
+-PAC Executes takeoff
+-Maintain upwind heading until 60 knots
+-Turn downwind with 20-30 degrees angle of bank
+-Level off at 300'AGL and 80KIAS
+-PNAC call rollout and altitude
+-PNAC performs landing checks
+-Crew chief maintains visual on the LZ, calls abeam
+-Abeam, reference ground checkpoings and extend if needed
+-Power as required to start a descent
+-Set 8 to 12 degrees nose up, 200-300fpm rate of descent (Recommended 10 degrees 200fpm)
+-0 degree position at 200-250' and 60KIAS
+-PNAC calls out headings to final
+-Approaching final, intercept glideslope and final heading NLT 125' and 45KTS
+-Identify landing point and heading
+-Short final standardization
+    -150' 50 KIAS
+    -125' 45 KIAS
+    -100' 40 KIAS
+    -75' 30 KIAS
+    -50' 20 KIAS
+    -25' 10 KIAS
+-At 25-50' AGL crew chief calls altitude, tail clear, clear L R and Below. 
+
+Normal Vertical Landing
+-From a hover, smoothly reduce collective to initiate a smooth descent. Maintain heading with pedals, eliminate drift with cyclic.
+-Maintain position over the ground until all wheels are on the deck.
+-As the mounts touch down, adjust cyclic to maintain level attitude and slowly reduce collective to lower the nose gear to the deck. Neutralize the controls afte rlanding and apply brakes a snecessary to prevent ground roll. 
+
+Engine Compartment Fire on the Ground
+*Speed control levers - As required (affected engines shut off)
+*Engine emergency T handles - Pull aft (affected engines)
+*Main engine fire extinguisher switch - Main, reserve if necessary
+-Groundcrew - Alerted
+
+Single and/or dual engine compartment fires in-flight
+-Engine fires are usually the result of an engine malfunction or failure of one of its component systems. Ruptured fuel and oil lines will usually be detected by engine instrument indications. To be sure the engine fire detection system is not activated by the rays of the sun, turn the helicopter 90 degrees to its flight path. If possible, confirm the fire by sight or smell. 
+*Collective - Maintain Nr
+*Airspeed - As required
+*Pickle - External load as required
+*Tanks - Jettison as required
+*Speed control levers - As required (affected engines shut off)
+*Engine emergency T handles - Pull aft (affected engines)
+*Main engine fire extinguisher switch - Main, reserve if necessary.
+N: If two bottles were discharged into one engine compartment, the remaining bottle can be discharged into either of the remaining compartments. The last bottle will be discharged by either the main or reserve selection depending on which two bottles have already been discharged, and which compartment has been selected. In this case, the most expeditious thing to do is select MAIN and RESERVE.
+*If fire continues, land immediately
+-If fire extinguished, refere to single or dual engine failure.
+
+Single or dual engine failure
+*Collective - Maintain Nr
+*Airspeed - As Required
+*Pickle - External load as required
+*Tanks - Jettison as required
+*Speed Control Levers - As required (Shut off affected engines, conditions permitting)
+-Land as soon as practical.
+
+APP or cabin heater fire
+-Indicated by fire warning master lights and fire warning lights in the APP emergency T handle. 
+*APP emergency T handle - Pull aft (to discharge fire extinguisher and shut off APP and heater fuel).
+*If fire persists - Land immediately
+-APP circuit breaker control switch - off if APP is operating
+-Cabin heater rheostat control - Off if cabin heat operating
+-Alert groundcrew (if on the ground)
+
+Fuel Dump
+-Nonmemory
+-May be required in case of single or dual engine operation or to adjust fuel loading in case of fuel system malfunction. Fuel shall not be dumped below 90 kias or above 130 kias. Fuel shall not be dumped if the rate of descent is greater than 1,500 fpm. The desired minimum altitude for fuel dump is 6,000'.
+-Airspeed - Between 90 and 130 KIAS
+-Rate of descent less than 1,500 FPM
+-Avoid populated areas
+-Determine desired fuel to remain after dumping
+-AN/ALE-47V CMDS MODE switch - STBY (if armed)
+W: If CMDS MODE is not in SBY or OFF during fuel dumpin procedures, inadvertent flare dispensing can ignite the aerosolized dumped fuel which can result in catastrophic fire. 
+-Fuel dump switches - as required 
+W: Dumping outside of NATOPS parameters and during high rates of descent may result in catastrophic fuselage fire. 
+-Fuel quantity - monitor
+-Fuel dump switches - secure when desired tank level is reached
+-If dump is not secured, it will dump to the leve that turns on the fuel low caution light at which time the dump shuts off automatically.
+C: After securing the dump switches, allow 2 minutes for dump lines to drain. Securing fuel dump immediately before overflying a ship or landing area will result in fuel draining onto that ship or area, creating a personnel or fire hazard.
+-Dump tubes - Check
+-AN/ALE-47 CMDS Mode switch - As requred. 
+

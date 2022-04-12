@@ -1,0 +1,123 @@
+SFAM 1102X
+
+PCL NATOPS brief and debrief
+- IAW NATOPS and PCL
+- Contract btw HAC and Crew
+- Shortens time for critical decisions because they have been considered on the ground.
+- Increases crew comfort level by ensuring all are on the same page. 
+
+Engine restart during flight
+- A failed engine should not be restored in flight unless it can be determined that it is reasonably safe to do so. A No. 2 engine in-flight restart should be determined by critical power requirements.
+W: Failure to reduce airspeed below 85 KIAS during the No. 2 engine start sequence increases the hot exhaust backflow component and likelihood of a subsequent engine compartment fire.
+C: If at least 30 seconds of gas generator windmilling with the speed control lever at SHUT-OFF is not provided, the possibility of a hot start increases due to fuel accumulation and excess fumes.
+N: The No. 2 ENGINE OVERHEAT caution light may illuminate for a short time (up to 30 seconds) during restart of the No. 2 Engine at any airspeed.
+N: For aircraft with IR Flame Detector, in addition to the No. 2 ENGINE OVERHEAT caution light, the FIRE warning light and No. 2 engine emergency T-handle may illuminate for a short time (up to 30 seconds) during restart of the No. 2 engine at any airspeed.
+1. Emergency start switch - EMER.
+2. EAPS - Closed.
+3. Engine speed contorl lever - SHUT OFF. (Inoperative engine)
+4. Fuel selector lever - As Required.
+C: Due to the probability of damaging the starting system, if time permits, the gas generator speed should be at zero before engaging the starter.
+5. Starter button - Press.
+6. Speed control lever - GRD IDLE at 20 percent Ng.
+7. Engine instruments - Checked
+- While engine is accelerating, check Ng tach, T5 indicator, and engine fuel flow as during normal start. If a hot or hung start is experienced with the No. 2 engine, immediately secure engine.
+8. Speed control lever - 100 percent Nf. Match engine torques.
+9. EAPS - As desired.
+
+Single engine failure (Hover and takeoff)
+*1. Collective - Maintain Nr.
+*2. Airspeed - As Required.
+*3. Pickle - External load as required.
+*4. Tanks - Jettison as required.
+*5. Speed control levers - As required. (Shut off affected engine, conditions permitting).
+6. Land as soon as practical.
+- Emergency single or dual-engine takeoffs are allowed; however in all cases takeoff gross weight shall be reduced to be sure of single or dual-engine hover capability as appropriate. Takeoff without single or dual-engine hover capability is not recommended.
+- The gross weight, density altitude, and wind conditions are the factors to be considered when determining whether a safe single or dual-engine takeoff can be accomplished and safe single or dual-engine airspeed can be maintained. Refer to the Climb - Single and Dual-engine charts and the Ability to Maintain Flight - Single and Dual-engine charts in Part X. A single or dual-engine takeoff is made in the same manner as a three-engine takeoff, except the engine speed control lever(s) is advanced full forward and retained until a safe single or dual-engine airspeed is reached. Power is then adjusted to stay within safe single or dual-engine airspeed envelope.
+
+Effects of gross weight on single and/or dual engine performance
+- See Below
+
+Single and/or dual engine failure at altitude
+*1. Collective - Maintain Nr.
+*2. Airspeed - As Required.
+*3. Pickle - External load as required.
+*4. Tanks - Jettison as required.
+*5. Speed control levers - As required. (Shut off affected engine, conditions permitting).
+6. Land as soon as practical.
+W: Pilot response to single or dual engine failure is dictated by gross weight, ambient conditions, relative wind, and height above the surface. These factors will determine whether an immediate landing or a flyaway recovery should be attempted. Based on the pilot's knowledge of aircraft single or dual-engine power available and power require,d the pilot should decide which procedure he intends to follow before the emergency occurs. Indecision following the single or dual-engine failure may prevent the success of either procedure. 
+W: If the altitude hold feature of AFCS is engaged, it will increase collective pitch in an attempt to hold altitude. The collective must be positively controlled by the pilot to prevent excessive loss of rotor speed. 
+W: Jettison of aux fuel tanks at rates-of-descent greater than 1,500 fpm and forward airspeeds greater than 120 KIAS may result in aircraft or rotor strike due to the aerodynamic and stability characteristics of jettisoned tanks. The risk of an aircraft strike is highest for empty tanks. Jettison characteristics improve with increasing aux fuel tank weight.
+C: Nose-high attitudes shall be avoided near the surface or the tail rotor blades may strike the ground or water. Tail rotor contact may occur with nose attitudes above 5 degrees when on the water. The altitude, airspeed, and gross weight at which a single or dual-engine failure occurs will dictate the action to be followed to effect a safe landing. Refer to the height-velocity diagram, one or two-engine failure. During mission planning, the engine torque available can be determined from the maximum and military power-available charts. The minimum and maximum indicated airspeed at which level flight can be maintained is determined from the Ability to Maintain Level flight chart. the maximum gross weight at which a hover or level flight can be maintained decreases as density alititude increases. Therefore, mission planning should include a thorough analysis of the performance data in NATOPS part X.
+N: If altitude cannot be manitained or a safe single or dual-engine landing is not fesible, decrease gross weight by releasing external cargo, dumping fuel, or jettisoning auxiliary fuel tanks if required. Stop dumping before landing.
+N: Careful monitoring of main fuel tank quantities is required on flights where fuel transfer from range extension fuel tanks is being conducted, and fuel is not being depleted from all main tanks. Main fuel tank expansion volume can diminish and ultimately result in overboard vent spillage due to constant flow of fuel through helivopter fuel system precheck lines. 
+W: Refer to H-V diagram, dual-engine failure and H-V diagram, single engine failure in part X.
+N: A roll on landing will normally decrease power required. Minimize drift and yaw on landing. 
+N: Determine which engine has failed by reference to engine torquemeters, T5 indicators, Nf or Ng tachometers, and proceed as instructed in Engine Shutdown in Flight in this section.  If restart is advisable, refer to Engine Restart During Flight in this chapter.
+
+
+Engine shutdown in-flight
+*1. Speed control lever - Shut off (If No. 2 engine is being secured, reduce airspeed to less than 85 KIAS)
+W: If an operating engine and a failed or secured engine have the same tank selected, the operating engine may flame out if the failed or secured engine fuel selector lever was not placed to SHUT OFF.
+W: Failure to reduce airspeed below 85 KIAS when securing the No. 2 engine increases the hot exhaust backflow component and likelihood of a subsequent engine compartment fire. (Why?)
+*2. Fuel selector Lever - Shut off
+C: If an engine postshutdown fire should occur, as indicated by a continuous T5 above 320 Celsius, motor engine with starter to extinguish fire.
+3. Adjust power on operating engines.
+4. EAPS door - Closed. 
+
+Compressor Stall
+*1. Collective - Maintatin Nr.
+*2. Airspeed - As Required.
+*3. Pickle - External load as required. 
+*4. Tanks - Jettison as required. 
+*5. Speed control levers - As required. (If compressor stall of No. 2 eng is indicated, immediately secure SCL and continue with Engine Shutdown in Flight procedures. If No. 1 or No. 3 engs, affected SCL below MIN GOV.)
+W: With a compressor stall in the No. 2 engine, any delay in shutdown of the engine can result in hot exhaust gas backflow into the engine compartment, creating a fire hazard.
+6. If T5 continues to rise, position speed control of affected engine to SHUT OFF; secure engine as instructed under Engine Shut Down In Flight.
+7. If T5 decreases and stall clears, slowly advance speed control lever to reestablish matched torques.
+8. If stall recurs, secure affected engine as instructed under Engine Shutdown in Flight. 
+
+Engine Power Loss
+- Flameout vs gradual power loss.
+A. Power loss caused by control/accessory malfunction, no stall, no flameout. Under certain conditions an Nf flex shaft failure will cause the affected engine to stabilize at ground idle with no control available through the speed control lever.
+- Affected engine(s): All engine parameters decreasing. As long as the affected engine is producing any usable torque, Nr will remain matched with the normal Nf/Nr. If torque drops to zero, Nf will likely split off and decay.
+- Normal engine(s): All engine parameters increasing except Nf/Nr. If the normal engine power available is not sufficient for the affected engine power loss (i.e., the total torque requirement cannot be met.) Nf/Nr may droop/decay excessively depending on the degree of power deficit. Also, if the normal engines have sufficient power available to compensate for the affected engine power loss (i.e. the total torque requirement can be met), it is normal for Nf/Nr to droop about 1% or 2% as the normal engines are forced to assume the additional load.
+Power loss caused 
+B. Power loss caused by fuel contamination/fuel starvation (engine flameout). See Gauges.
+- Affected engine(s): All parameters decreasing.
+- Normal engine(s): All engine parameters increasing except Nf/Nr. If the normal engine power available is not sufficient for the affected engine power loss (i.e. the total torque requirement cannot be met), NfNr may droop/decay excessively depending on the degree of power deficit. Also, if the normal engines have sufficient power available to compensate for the affected engine power loss (i.e. the total torque requirement can be met), it is normal for Nf/Nr to droop about 1% to 2% as the normal engines are forced to assume the additional load.
+*1. Collective - Maintain Nr.
+*2. Airspeed - As Required.
+*3. Pickle - External load as required.
+*4. Tanks - Jettison as required.
+*5. Speed control levers - As required.
+*6. Continue to use affected engine if engine is producing some torque and all engine parameters are within limits. 
+W: If the No. 2 engine is operating at a low power condition and the Ng is less than 75%, hot exhaust gas may backflow into the engine compartment creating a fire hazard. Limit airspeed to less than 85 KIAS to reduce backflow. If dual-engine flight can be maintained, consideration should be given to securing the No. 2 engine.
+7. Carefully monitor all engine parameters.
+8. Secure affected engine as instructed under Engine Shutdown in Flight in this chapter if any further engine malfunction is indicated, or if affected engine is not producing torque.
+N: If engine power loss takes place following fuel system transfer, selected fuel source is suspect for contamination or insufficient fuel. 
+
+Engine post-shutdown fire
+- An engine postshutdown fire in the combustion chamber after shutdown may continue to feed itself unless it is blown out by compressor air. Indications would be a rise in T5 above 320 Celsius after shutdown and/or excessive smoke from the engine exhaust outlet.
+*1. Speed control lever - SHUTOFF
+*2. Fuel selector lever - SHUTOFF
+*3. Emergency start switch - EMER
+*4. Starter button - Press. Motorize engine until fire is out and observe T5.
+N: If all engines have been shut down, APP should be operating.
+5. If fire continues, be sure EAPS doors are open and have fire extinguisher discharged into air inlet duct while motoring engine.
+6. Pull down on handle of speed control lever to stop starter.
+- If an engine fire warning light goes on.
+7. Emergency T-handle - Pull aft to select engine compartment for fire extinguisher.
+8. Engine fire extinguisher switch - Main, reserve if necessary.
+
+Crosswind Landing
+- Apply cyclic into the wind, with opposite pedal to maintain centerline. Avoid drift.
+- Use outside references to maintain ground track.
+
+Crosswind landing from a hover
+
+Simulated MGW takeoff from a hover
+- Description: Simulated maximum gross weight takeoffs are practiced to familiarize pilots with the helicopter's handling characteristics in power-limited situations. Study the three-engine climb, military power charts in part X to find best climb airspeed for transition to normal climb.
+- Procedures:
+a. Establish the aircraft in a 10' hover into the wind and note the torque required to hover; add 5 to the established hover torque. This torque will be the simulated power available. The PNAC will call out torque once the torque totalizer begins registering a load and will continue to call out torque values until the maneuver is complete.
+b. Apply a slight amount of forward cyclic to initiate forward airspeed. Smoothly coordinate collective to prevent settling, up to the simulated max torque available figure. Use pedals to maintain directional control (crucial since the aircraft will experience some ssettling prior to entering translational lift). Settling can be minimized by staying low over the ground (5-10', in ground cushion) and gently easing the aircraft forward through translational lift.
+c. As the aircraft accelerates through translational lift ~15 kts, power required for forward flight will be decreased. Remain below 50' AGL (in ground effect). As you gain airspeed through translational lift, the aircraft will then begin to climb with no further pilot inputs as the rotor becomes more efficient. Maintain these parameters until best climb airspeed is gained, only increasing collective input as necessary and only up to the simulated torque limit. The maneuver will be complete upon reaching 100ft and 60 KIAS.
+- Common errors: Rushing the maneuver, settling to the deck, exceeding simulated torque limit. Failure to maintain directional control. 
