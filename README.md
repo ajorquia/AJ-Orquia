@@ -1,4 +1,4 @@
 ![gulf-breeze]( gulf.jpg ) 
 
 ### Introduction
-I'm a student pilot from Georgia with an Engineering degree and an interest in computing, free software, and old cars that barely work.
+I'm Aaron, a Naval Aviator from Georgia. I received a mechanical engineering degree from Georgia Tech, and have an interest in flight, computing, sports, free software, and old cars that (barely) work.
