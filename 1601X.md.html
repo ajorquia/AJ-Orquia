@@ -1,0 +1,1015 @@
+      <!DOCTYPE html>
+      <html>
+        <head>
+            <meta charset="utf-8" />
+            <title>1601X</title>
+            <style>.markdown-preview:not([data-use-github-style]) { padding: 2em; font-size: 1.2em; color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); overflow: auto; }
+.markdown-preview:not([data-use-github-style]) > :first-child { margin-top: 0px; }
+.markdown-preview:not([data-use-github-style]) h1, .markdown-preview:not([data-use-github-style]) h2, .markdown-preview:not([data-use-github-style]) h3, .markdown-preview:not([data-use-github-style]) h4, .markdown-preview:not([data-use-github-style]) h5, .markdown-preview:not([data-use-github-style]) h6 { line-height: 1.2; margin-top: 1.5em; margin-bottom: 0.5em; color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) h1 { font-size: 2.4em; font-weight: 300; }
+.markdown-preview:not([data-use-github-style]) h2 { font-size: 1.8em; font-weight: 400; }
+.markdown-preview:not([data-use-github-style]) h3 { font-size: 1.5em; font-weight: 500; }
+.markdown-preview:not([data-use-github-style]) h4 { font-size: 1.2em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h5 { font-size: 1.1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h6 { font-size: 1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) strong { color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) del { color: rgb(124, 135, 156); }
+.markdown-preview:not([data-use-github-style]) a, .markdown-preview:not([data-use-github-style]) a code { color: rgb(82, 139, 255); }
+.markdown-preview:not([data-use-github-style]) img { max-width: 100%; }
+.markdown-preview:not([data-use-github-style]) > p { margin-top: 0px; margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) > ul, .markdown-preview:not([data-use-github-style]) > ol { margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) blockquote { margin: 1.5em 0px; font-size: inherit; color: rgb(124, 135, 156); border-color: rgb(75, 83, 98); border-width: 4px; }
+.markdown-preview:not([data-use-github-style]) hr { margin: 3em 0px; border-top: 2px dashed rgb(75, 83, 98); background: none; }
+.markdown-preview:not([data-use-github-style]) table { margin: 1.5em 0px; }
+.markdown-preview:not([data-use-github-style]) th { color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) th, .markdown-preview:not([data-use-github-style]) td { padding: 0.66em 1em; border: 1px solid rgb(75, 83, 98); }
+.markdown-preview:not([data-use-github-style]) code { color: rgb(255, 255, 255); background-color: rgb(58, 63, 75); }
+.markdown-preview:not([data-use-github-style]) pre.editor-colors { margin: 1.5em 0px; padding: 1em; font-size: 0.92em; border-radius: 3px; background-color: rgb(49, 54, 63); }
+.markdown-preview:not([data-use-github-style]) kbd { color: rgb(255, 255, 255); border-width: 1px 1px 2px; border-style: solid; border-color: rgb(75, 83, 98) rgb(75, 83, 98) rgb(62, 68, 81); border-image: initial; background-color: rgb(58, 63, 75); }
+.markdown-preview[data-use-github-style] { font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif; line-height: 1.6; overflow-wrap: break-word; padding: 30px; font-size: 16px; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); overflow: scroll; }
+.markdown-preview[data-use-github-style] > :first-child { margin-top: 0px !important; }
+.markdown-preview[data-use-github-style] > :last-child { margin-bottom: 0px !important; }
+.markdown-preview[data-use-github-style] a:not([href]) { color: inherit; text-decoration: none; }
+.markdown-preview[data-use-github-style] .absent { color: rgb(204, 0, 0); }
+.markdown-preview[data-use-github-style] .anchor { position: absolute; top: 0px; left: 0px; display: block; padding-right: 6px; padding-left: 30px; margin-left: -30px; }
+.markdown-preview[data-use-github-style] .anchor:focus { outline: none; }
+.markdown-preview[data-use-github-style] h1, .markdown-preview[data-use-github-style] h2, .markdown-preview[data-use-github-style] h3, .markdown-preview[data-use-github-style] h4, .markdown-preview[data-use-github-style] h5, .markdown-preview[data-use-github-style] h6 { position: relative; margin-top: 1em; margin-bottom: 16px; font-weight: bold; line-height: 1.4; }
+.markdown-preview[data-use-github-style] h1 .octicon-link, .markdown-preview[data-use-github-style] h2 .octicon-link, .markdown-preview[data-use-github-style] h3 .octicon-link, .markdown-preview[data-use-github-style] h4 .octicon-link, .markdown-preview[data-use-github-style] h5 .octicon-link, .markdown-preview[data-use-github-style] h6 .octicon-link { display: none; color: rgb(0, 0, 0); vertical-align: middle; }
+.markdown-preview[data-use-github-style] h1:hover .anchor, .markdown-preview[data-use-github-style] h2:hover .anchor, .markdown-preview[data-use-github-style] h3:hover .anchor, .markdown-preview[data-use-github-style] h4:hover .anchor, .markdown-preview[data-use-github-style] h5:hover .anchor, .markdown-preview[data-use-github-style] h6:hover .anchor { padding-left: 8px; margin-left: -30px; text-decoration: none; }
+.markdown-preview[data-use-github-style] h1:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h2:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h3:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h4:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h5:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h6:hover .anchor .octicon-link { display: inline-block; }
+.markdown-preview[data-use-github-style] h1 tt, .markdown-preview[data-use-github-style] h2 tt, .markdown-preview[data-use-github-style] h3 tt, .markdown-preview[data-use-github-style] h4 tt, .markdown-preview[data-use-github-style] h5 tt, .markdown-preview[data-use-github-style] h6 tt, .markdown-preview[data-use-github-style] h1 code, .markdown-preview[data-use-github-style] h2 code, .markdown-preview[data-use-github-style] h3 code, .markdown-preview[data-use-github-style] h4 code, .markdown-preview[data-use-github-style] h5 code, .markdown-preview[data-use-github-style] h6 code { font-size: inherit; }
+.markdown-preview[data-use-github-style] h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h1 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h2 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h3 { font-size: 1.5em; line-height: 1.43; }
+.markdown-preview[data-use-github-style] h3 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h4 { font-size: 1.25em; }
+.markdown-preview[data-use-github-style] h4 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h5 { font-size: 1em; }
+.markdown-preview[data-use-github-style] h5 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] h6 { font-size: 1em; color: rgb(119, 119, 119); }
+.markdown-preview[data-use-github-style] h6 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] p, .markdown-preview[data-use-github-style] blockquote, .markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol, .markdown-preview[data-use-github-style] dl, .markdown-preview[data-use-github-style] table, .markdown-preview[data-use-github-style] pre { margin-top: 0px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] hr { height: 4px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border: 0px none; }
+.markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol { padding-left: 2em; }
+.markdown-preview[data-use-github-style] ul.no-list, .markdown-preview[data-use-github-style] ol.no-list { padding: 0px; list-style-type: none; }
+.markdown-preview[data-use-github-style] ul ul, .markdown-preview[data-use-github-style] ul ol, .markdown-preview[data-use-github-style] ol ol, .markdown-preview[data-use-github-style] ol ul { margin-top: 0px; margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] li > p { margin-top: 16px; }
+.markdown-preview[data-use-github-style] dl { padding: 0px; }
+.markdown-preview[data-use-github-style] dl dt { padding: 0px; margin-top: 16px; font-size: 1em; font-style: italic; font-weight: bold; }
+.markdown-preview[data-use-github-style] dl dd { padding: 0px 16px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] blockquote { padding: 0px 15px; color: rgb(119, 119, 119); border-left: 4px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] blockquote > :first-child { margin-top: 0px; }
+.markdown-preview[data-use-github-style] blockquote > :last-child { margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] table { display: block; width: 100%; overflow: auto; word-break: keep-all; }
+.markdown-preview[data-use-github-style] table th { font-weight: bold; }
+.markdown-preview[data-use-github-style] table th, .markdown-preview[data-use-github-style] table td { padding: 6px 13px; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] table tr { background-color: rgb(255, 255, 255); border-top: 1px solid rgb(204, 204, 204); }
+.markdown-preview[data-use-github-style] table tr:nth-child(2n) { background-color: rgb(248, 248, 248); }
+.markdown-preview[data-use-github-style] img { max-width: 100%; box-sizing: border-box; }
+.markdown-preview[data-use-github-style] .emoji { max-width: none; }
+.markdown-preview[data-use-github-style] span.frame { display: block; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.frame > span { display: block; float: left; width: auto; padding: 7px; margin: 13px 0px 0px; overflow: hidden; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] span.frame span img { display: block; float: left; }
+.markdown-preview[data-use-github-style] span.frame span span { display: block; padding: 5px 0px 0px; clear: both; color: rgb(51, 51, 51); }
+.markdown-preview[data-use-github-style] span.align-center { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-center > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-center span img { margin: 0px auto; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-right { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-right > span { display: block; margin: 13px 0px 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] span.align-right span img { margin: 0px; text-align: right; }
+.markdown-preview[data-use-github-style] span.float-left { display: block; float: left; margin-right: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-left span { margin: 13px 0px 0px; }
+.markdown-preview[data-use-github-style] span.float-right { display: block; float: right; margin-left: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-right > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] code, .markdown-preview[data-use-github-style] tt { padding: 0.2em 0px; margin: 0px; font-size: 85%; background-color: rgba(0, 0, 0, 0.04); border-radius: 3px; }
+.markdown-preview[data-use-github-style] code::before, .markdown-preview[data-use-github-style] tt::before, .markdown-preview[data-use-github-style] code::after, .markdown-preview[data-use-github-style] tt::after { letter-spacing: -0.2em; content: " "; }
+.markdown-preview[data-use-github-style] code br, .markdown-preview[data-use-github-style] tt br { display: none; }
+.markdown-preview[data-use-github-style] del code { text-decoration: inherit; }
+.markdown-preview[data-use-github-style] pre > code { padding: 0px; margin: 0px; font-size: 100%; word-break: normal; white-space: pre; background: transparent; border: 0px; }
+.markdown-preview[data-use-github-style] .highlight { margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] .highlight pre, .markdown-preview[data-use-github-style] pre { padding: 16px; overflow: auto; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border-radius: 3px; }
+.markdown-preview[data-use-github-style] .highlight pre { margin-bottom: 0px; word-break: normal; }
+.markdown-preview[data-use-github-style] pre { overflow-wrap: normal; }
+.markdown-preview[data-use-github-style] pre code, .markdown-preview[data-use-github-style] pre tt { display: inline; max-width: initial; padding: 0px; margin: 0px; overflow: initial; line-height: inherit; overflow-wrap: normal; background-color: transparent; border: 0px; }
+.markdown-preview[data-use-github-style] pre code::before, .markdown-preview[data-use-github-style] pre tt::before, .markdown-preview[data-use-github-style] pre code::after, .markdown-preview[data-use-github-style] pre tt::after { content: normal; }
+.markdown-preview[data-use-github-style] kbd { display: inline-block; padding: 3px 5px; font-size: 11px; line-height: 10px; color: rgb(85, 85, 85); vertical-align: middle; background-color: rgb(252, 252, 252); border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(187, 187, 187); border-image: initial; border-radius: 3px; box-shadow: rgb(187, 187, 187) 0px -1px 0px inset; }
+.markdown-preview[data-use-github-style] a { color: rgb(51, 122, 183); }
+.markdown-preview[data-use-github-style] code { color: inherit; }
+.markdown-preview[data-use-github-style] pre.editor-colors { padding: 0.8em 1em; margin-bottom: 1em; font-size: 0.85em; border-radius: 4px; overflow: auto; }
+.markdown-preview pre.editor-colors { user-select: auto; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors .horizontal-scrollbar { visibility: hidden; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors:hover .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors:hover .horizontal-scrollbar { visibility: visible; }
+.markdown-preview .task-list-item input[type="checkbox"] { position: absolute; margin: 0.25em 0px 0px -1.4em; }
+.markdown-preview .task-list-item { list-style-type: none; }
+.bracket-matcher .region {
+  border-bottom: 1px dotted lime;
+  position: absolute;
+}
+.line-number.bracket-matcher.bracket-matcher {
+  color: #abb2bf;
+  background-color: #3a3f4b;
+}
+
+.spell-check-misspelling .region {
+  border-bottom: 2px dotted rgba(255, 51, 51, 0.75);
+}
+.spell-check-corrections {
+  width: 25em !important;
+}
+
+pre.editor-colors {
+  background-color: #282c34;
+  color: #abb2bf;
+}
+pre.editor-colors .line.cursor-line {
+  background-color: rgba(153, 187, 255, 0.04);
+}
+pre.editor-colors .invisible {
+  color: #abb2bf;
+}
+pre.editor-colors .cursor {
+  border-left: 2px solid #528bff;
+}
+pre.editor-colors .selection .region {
+  background-color: #3e4451;
+}
+pre.editor-colors .bracket-matcher .region {
+  border-bottom: 1px solid #528bff;
+  box-sizing: border-box;
+}
+pre.editor-colors .invisible-character {
+  color: rgba(171, 178, 191, 0.15);
+}
+pre.editor-colors .indent-guide {
+  color: rgba(171, 178, 191, 0.15);
+}
+pre.editor-colors .wrap-guide {
+  background-color: rgba(171, 178, 191, 0.15);
+}
+pre.editor-colors .find-result .region.region.region,
+pre.editor-colors .current-result .region.region.region {
+  border-radius: 2px;
+  background-color: rgba(82, 139, 255, 0.24);
+  transition: border-color 0.4s;
+}
+pre.editor-colors .find-result .region.region.region {
+  border: 2px solid transparent;
+}
+pre.editor-colors .current-result .region.region.region {
+  border: 2px solid #528bff;
+  transition-duration: .1s;
+}
+pre.editor-colors .gutter .line-number {
+  color: #636d83;
+  -webkit-font-smoothing: antialiased;
+}
+pre.editor-colors .gutter .line-number.cursor-line {
+  color: #abb2bf;
+  background-color: #3a3f4b;
+}
+pre.editor-colors .gutter .line-number.cursor-line-no-selection {
+  background-color: transparent;
+}
+pre.editor-colors .gutter .line-number .icon-right {
+  color: #abb2bf;
+}
+pre.editor-colors .gutter:not(.git-diff-icon) .line-number.git-line-removed.git-line-removed::before {
+  bottom: -3px;
+}
+pre.editor-colors .gutter:not(.git-diff-icon) .line-number.git-line-removed::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 25px;
+  border-bottom: 1px dotted rgba(224, 82, 82, 0.5);
+  pointer-events: none;
+}
+pre.editor-colors .gutter .line-number.folded,
+pre.editor-colors .gutter .line-number:after,
+pre.editor-colors .fold-marker:after {
+  color: #abb2bf;
+}
+.syntax--comment {
+  color: #5c6370;
+  font-style: italic;
+}
+.syntax--comment .syntax--markup.syntax--link {
+  color: #5c6370;
+}
+.syntax--entity.syntax--name.syntax--type {
+  color: #e5c07b;
+}
+.syntax--entity.syntax--other.syntax--inherited-class {
+  color: #e5c07b;
+}
+.syntax--keyword {
+  color: #c678dd;
+}
+.syntax--keyword.syntax--control {
+  color: #c678dd;
+}
+.syntax--keyword.syntax--operator {
+  color: #c678dd;
+}
+.syntax--keyword.syntax--other.syntax--special-method {
+  color: #61afef;
+}
+.syntax--keyword.syntax--other.syntax--unit {
+  color: #d19a66;
+}
+.syntax--storage {
+  color: #c678dd;
+}
+.syntax--storage.syntax--type.syntax--annotation,
+.syntax--storage.syntax--type.syntax--primitive {
+  color: #c678dd;
+}
+.syntax--storage.syntax--modifier.syntax--package,
+.syntax--storage.syntax--modifier.syntax--import {
+  color: #abb2bf;
+}
+.syntax--constant {
+  color: #d19a66;
+}
+.syntax--constant.syntax--variable {
+  color: #d19a66;
+}
+.syntax--constant.syntax--character.syntax--escape {
+  color: #56b6c2;
+}
+.syntax--constant.syntax--numeric {
+  color: #d19a66;
+}
+.syntax--constant.syntax--other.syntax--color {
+  color: #56b6c2;
+}
+.syntax--constant.syntax--other.syntax--symbol {
+  color: #56b6c2;
+}
+.syntax--variable {
+  color: #e06c75;
+}
+.syntax--variable.syntax--interpolation {
+  color: #be5046;
+}
+.syntax--variable.syntax--parameter {
+  color: #abb2bf;
+}
+.syntax--string {
+  color: #98c379;
+}
+.syntax--string > .syntax--source,
+.syntax--string .syntax--embedded {
+  color: #abb2bf;
+}
+.syntax--string.syntax--regexp {
+  color: #56b6c2;
+}
+.syntax--string.syntax--regexp .syntax--source.syntax--ruby.syntax--embedded {
+  color: #e5c07b;
+}
+.syntax--string.syntax--other.syntax--link {
+  color: #e06c75;
+}
+.syntax--punctuation.syntax--definition.syntax--comment {
+  color: #5c6370;
+}
+.syntax--punctuation.syntax--definition.syntax--method-parameters,
+.syntax--punctuation.syntax--definition.syntax--function-parameters,
+.syntax--punctuation.syntax--definition.syntax--parameters,
+.syntax--punctuation.syntax--definition.syntax--separator,
+.syntax--punctuation.syntax--definition.syntax--seperator,
+.syntax--punctuation.syntax--definition.syntax--array {
+  color: #abb2bf;
+}
+.syntax--punctuation.syntax--definition.syntax--heading,
+.syntax--punctuation.syntax--definition.syntax--identity {
+  color: #61afef;
+}
+.syntax--punctuation.syntax--definition.syntax--bold {
+  color: #e5c07b;
+  font-weight: bold;
+}
+.syntax--punctuation.syntax--definition.syntax--italic {
+  color: #c678dd;
+  font-style: italic;
+}
+.syntax--punctuation.syntax--section.syntax--embedded {
+  color: #be5046;
+}
+.syntax--punctuation.syntax--section.syntax--method,
+.syntax--punctuation.syntax--section.syntax--class,
+.syntax--punctuation.syntax--section.syntax--inner-class {
+  color: #abb2bf;
+}
+.syntax--support.syntax--class {
+  color: #e5c07b;
+}
+.syntax--support.syntax--type {
+  color: #56b6c2;
+}
+.syntax--support.syntax--function {
+  color: #56b6c2;
+}
+.syntax--support.syntax--function.syntax--any-method {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--function {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--class,
+.syntax--entity.syntax--name.syntax--type.syntax--class {
+  color: #e5c07b;
+}
+.syntax--entity.syntax--name.syntax--section {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--tag {
+  color: #e06c75;
+}
+.syntax--entity.syntax--other.syntax--attribute-name {
+  color: #d19a66;
+}
+.syntax--entity.syntax--other.syntax--attribute-name.syntax--id {
+  color: #61afef;
+}
+.syntax--meta.syntax--class {
+  color: #e5c07b;
+}
+.syntax--meta.syntax--class.syntax--body {
+  color: #abb2bf;
+}
+.syntax--meta.syntax--method-call,
+.syntax--meta.syntax--method {
+  color: #abb2bf;
+}
+.syntax--meta.syntax--definition.syntax--variable {
+  color: #e06c75;
+}
+.syntax--meta.syntax--link {
+  color: #d19a66;
+}
+.syntax--meta.syntax--require {
+  color: #61afef;
+}
+.syntax--meta.syntax--selector {
+  color: #c678dd;
+}
+.syntax--meta.syntax--separator {
+  color: #abb2bf;
+}
+.syntax--meta.syntax--tag {
+  color: #abb2bf;
+}
+.syntax--underline {
+  text-decoration: underline;
+}
+.syntax--none {
+  color: #abb2bf;
+}
+.syntax--invalid.syntax--deprecated {
+  color: #523d14 !important;
+  background-color: #e0c285 !important;
+}
+.syntax--invalid.syntax--illegal {
+  color: white !important;
+  background-color: #e05252 !important;
+}
+.syntax--markup.syntax--bold {
+  color: #d19a66;
+  font-weight: bold;
+}
+.syntax--markup.syntax--changed {
+  color: #c678dd;
+}
+.syntax--markup.syntax--deleted {
+  color: #e06c75;
+}
+.syntax--markup.syntax--italic {
+  color: #c678dd;
+  font-style: italic;
+}
+.syntax--markup.syntax--heading {
+  color: #e06c75;
+}
+.syntax--markup.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
+  color: #61afef;
+}
+.syntax--markup.syntax--link {
+  color: #56b6c2;
+}
+.syntax--markup.syntax--inserted {
+  color: #98c379;
+}
+.syntax--markup.syntax--quote {
+  color: #d19a66;
+}
+.syntax--markup.syntax--raw {
+  color: #98c379;
+}
+.syntax--source.syntax--cs .syntax--keyword.syntax--operator {
+  color: #c678dd;
+}
+.syntax--source.syntax--css .syntax--property-name,
+.syntax--source.syntax--css .syntax--property-value {
+  color: #828997;
+}
+.syntax--source.syntax--css .syntax--property-name.syntax--support,
+.syntax--source.syntax--css .syntax--property-value.syntax--support {
+  color: #abb2bf;
+}
+.syntax--source.syntax--elixir .syntax--source.syntax--embedded.syntax--source {
+  color: #abb2bf;
+}
+.syntax--source.syntax--elixir .syntax--constant.syntax--language,
+.syntax--source.syntax--elixir .syntax--constant.syntax--numeric,
+.syntax--source.syntax--elixir .syntax--constant.syntax--definition {
+  color: #61afef;
+}
+.syntax--source.syntax--elixir .syntax--variable.syntax--definition,
+.syntax--source.syntax--elixir .syntax--variable.syntax--anonymous {
+  color: #c678dd;
+}
+.syntax--source.syntax--elixir .syntax--parameter.syntax--variable.syntax--function {
+  color: #d19a66;
+  font-style: italic;
+}
+.syntax--source.syntax--elixir .syntax--quoted {
+  color: #98c379;
+}
+.syntax--source.syntax--elixir .syntax--keyword.syntax--special-method,
+.syntax--source.syntax--elixir .syntax--embedded.syntax--section,
+.syntax--source.syntax--elixir .syntax--embedded.syntax--source.syntax--empty {
+  color: #e06c75;
+}
+.syntax--source.syntax--elixir .syntax--readwrite.syntax--module .syntax--punctuation {
+  color: #e06c75;
+}
+.syntax--source.syntax--elixir .syntax--regexp.syntax--section,
+.syntax--source.syntax--elixir .syntax--regexp.syntax--string {
+  color: #be5046;
+}
+.syntax--source.syntax--elixir .syntax--separator,
+.syntax--source.syntax--elixir .syntax--keyword.syntax--operator {
+  color: #d19a66;
+}
+.syntax--source.syntax--elixir .syntax--variable.syntax--constant {
+  color: #e5c07b;
+}
+.syntax--source.syntax--elixir .syntax--array,
+.syntax--source.syntax--elixir .syntax--scope,
+.syntax--source.syntax--elixir .syntax--section {
+  color: #828997;
+}
+.syntax--source.syntax--gfm .syntax--markup {
+  -webkit-font-smoothing: auto;
+}
+.syntax--source.syntax--gfm .syntax--link .syntax--entity {
+  color: #61afef;
+}
+.syntax--source.syntax--ini .syntax--keyword.syntax--other.syntax--definition.syntax--ini {
+  color: #e06c75;
+}
+.syntax--source.syntax--java .syntax--storage.syntax--modifier.syntax--import {
+  color: #e5c07b;
+}
+.syntax--source.syntax--java .syntax--storage.syntax--type {
+  color: #e5c07b;
+}
+.syntax--source.syntax--java .syntax--keyword.syntax--operator.syntax--instanceof {
+  color: #c678dd;
+}
+.syntax--source.syntax--java-properties .syntax--meta.syntax--key-pair {
+  color: #e06c75;
+}
+.syntax--source.syntax--java-properties .syntax--meta.syntax--key-pair > .syntax--punctuation {
+  color: #abb2bf;
+}
+.syntax--source.syntax--ts .syntax--keyword.syntax--operator {
+  color: #56b6c2;
+}
+.syntax--source.syntax--flow .syntax--keyword.syntax--operator {
+  color: #56b6c2;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--string.syntax--quoted.syntax--json {
+  color: #e06c75;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation.syntax--string {
+  color: #e06c75;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation {
+  color: #98c379;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--constant.syntax--language.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--constant.syntax--language.syntax--json {
+  color: #56b6c2;
+}
+.syntax--ng.syntax--interpolation {
+  color: #e06c75;
+}
+.syntax--ng.syntax--interpolation.syntax--begin,
+.syntax--ng.syntax--interpolation.syntax--end {
+  color: #61afef;
+}
+.syntax--ng.syntax--interpolation .syntax--function {
+  color: #e06c75;
+}
+.syntax--ng.syntax--interpolation .syntax--function.syntax--begin,
+.syntax--ng.syntax--interpolation .syntax--function.syntax--end {
+  color: #61afef;
+}
+.syntax--ng.syntax--interpolation .syntax--bool {
+  color: #d19a66;
+}
+.syntax--ng.syntax--interpolation .syntax--bracket {
+  color: #abb2bf;
+}
+.syntax--ng.syntax--pipe,
+.syntax--ng.syntax--operator {
+  color: #abb2bf;
+}
+.syntax--ng.syntax--tag {
+  color: #56b6c2;
+}
+.syntax--ng.syntax--attribute-with-value .syntax--attribute-name {
+  color: #e5c07b;
+}
+.syntax--ng.syntax--attribute-with-value .syntax--string {
+  color: #c678dd;
+}
+.syntax--ng.syntax--attribute-with-value .syntax--string.syntax--begin,
+.syntax--ng.syntax--attribute-with-value .syntax--string.syntax--end {
+  color: #abb2bf;
+}
+.syntax--source.syntax--php .syntax--class.syntax--bracket {
+  color: #abb2bf;
+}
+/*
+   This defines styling rules for syntax classes.
+
+   See the naming conventions for a list of syntax classes:
+   https://flight-manual.atom.io/hacking-atom/sections/syntax-naming-conventions
+
+   When styling rules conflict:
+   - The last rule overrides previous rules.
+   - The rule with most classes and pseudo-classes overrides the last rule.
+*/
+.syntax--keyword {
+  color: #c678dd;
+}
+.syntax--keyword.syntax--type {
+  color: #56b6c2;
+}
+.syntax--keyword.syntax--function {
+  color: #e06c75;
+}
+.syntax--keyword.syntax--variable {
+  color: #e06c75;
+}
+.syntax--entity {
+  color: #abb2bf;
+}
+.syntax--entity.syntax--parameter {
+  color: #abb2bf;
+}
+.syntax--entity.syntax--support {
+  color: #e06c75;
+}
+.syntax--entity.syntax--decorator:last-child {
+  color: #61afef;
+}
+.syntax--entity.syntax--label {
+  text-decoration: underline;
+}
+.syntax--entity.syntax--function {
+  color: #61afef;
+}
+.syntax--entity.syntax--operator {
+  color: #61afef;
+}
+.syntax--entity.syntax--operator.syntax--symbolic {
+  color: #abb2bf;
+}
+.syntax--entity.syntax--type {
+  color: #56b6c2;
+}
+.syntax--entity.syntax--tag {
+  color: #e06c75;
+}
+.syntax--entity.syntax--attribute {
+  color: #d19a66;
+}
+.syntax--punctuation {
+  color: #abb2bf;
+}
+.syntax--punctuation.syntax--accessor {
+  color: #abb2bf;
+}
+.syntax--punctuation.syntax--accessor.syntax--member,
+.syntax--punctuation.syntax--accessor.syntax--scope {
+  color: #c678dd;
+}
+.syntax--punctuation.syntax--embedded {
+  color: #c678dd;
+}
+.syntax--string {
+  color: #98c379;
+}
+.syntax--string.syntax--immutable {
+  color: #98c379;
+}
+.syntax--string.syntax--part {
+  color: #56b6c2;
+}
+.syntax--string.syntax--interpolation {
+  color: #c678dd;
+}
+.syntax--string.syntax--regexp {
+  color: #98c379;
+}
+.syntax--string.syntax--regexp.syntax--language {
+  color: #c678dd;
+}
+.syntax--string.syntax--regexp.syntax--variable {
+  color: #61afef;
+}
+.syntax--string.syntax--regexp.syntax--punctuation {
+  color: #c678dd;
+}
+.syntax--constant {
+  color: #d19a66;
+}
+.syntax--constant.syntax--character {
+  color: #98c379;
+}
+.syntax--constant.syntax--character.syntax--escape {
+  color: #98c379;
+}
+.syntax--constant.syntax--character.syntax--code {
+  color: #56b6c2;
+}
+.syntax--text {
+  color: #abb2bf;
+}
+.syntax--markup.syntax--heading {
+  color: #e06c75;
+}
+.syntax--markup.syntax--list.syntax--punctuation {
+  color: #e06c75;
+}
+.syntax--markup.syntax--quote {
+  color: #5c6370;
+  font-style: italic;
+}
+.syntax--markup.syntax--bold {
+  color: #d19a66;
+  font-weight: bold;
+}
+.syntax--markup.syntax--italic {
+  color: #c678dd;
+  font-style: italic;
+}
+.syntax--markup.syntax--underline {
+  color: #56b6c2;
+  text-decoration: underline;
+}
+.syntax--markup.syntax--strike {
+  color: #e06c75;
+}
+.syntax--markup.syntax--raw {
+  color: #98c379;
+}
+.syntax--markup.syntax--link {
+  color: #56b6c2;
+}
+.syntax--markup.syntax--alt {
+  color: #61afef;
+}
+.syntax--markup.syntax--inserted {
+  color: #98c379;
+}
+.syntax--markup.syntax--inserted .syntax--punctuation {
+  color: #98c379;
+}
+.syntax--markup.syntax--highlighted {
+  color: #98c379;
+}
+.syntax--markup.syntax--highlighted .syntax--punctuation {
+  color: #98c379;
+}
+.syntax--markup.syntax--deleted {
+  color: #e06c75;
+}
+.syntax--markup.syntax--deleted .syntax--punctuation {
+  color: #e06c75;
+}
+.syntax--markup.syntax--changed {
+  color: #c678dd;
+}
+.syntax--markup.syntax--changed .syntax--punctuation {
+  color: #c678dd;
+}
+.syntax--markup.syntax--commented {
+  color: #5c6370;
+}
+.syntax--markup.syntax--commented .syntax--punctuation {
+  color: #5c6370;
+}
+.syntax--comment {
+  color: #5c6370;
+  font-style: italic;
+}
+.syntax--comment.syntax--caption {
+  color: #6a7181;
+  font-weight: bold;
+}
+.syntax--comment.syntax--term {
+  color: #707989;
+}
+.syntax--comment.syntax--punctuation {
+  color: #5c6370;
+  font-weight: normal;
+}
+.syntax--invalid:not(.syntax--punctuation).syntax--illegal {
+  color: white !important;
+  background-color: #e05252 !important;
+}
+.syntax--invalid:not(.syntax--punctuation).syntax--deprecated {
+  color: #523d14 !important;
+  background-color: #e0c285 !important;
+}
+.syntax--source.syntax--css .syntax--entity.syntax--function {
+  color: #828997;
+}
+.syntax--source.syntax--css .syntax--entity.syntax--function.syntax--support {
+  color: #56b6c2;
+}
+.syntax--source.syntax--css .syntax--entity.syntax--selector {
+  color: #d19a66;
+}
+.syntax--source.syntax--css .syntax--entity.syntax--selector.syntax--tag {
+  color: #e06c75;
+}
+.syntax--source.syntax--css .syntax--entity.syntax--selector.syntax--id {
+  color: #61afef;
+}
+.syntax--source.syntax--css .syntax--entity.syntax--property {
+  color: #828997;
+}
+.syntax--source.syntax--css .syntax--entity.syntax--property.syntax--support {
+  color: #abb2bf;
+}
+.syntax--source.syntax--css .syntax--entity.syntax--variable {
+  color: #e06c75;
+}
+.syntax--source.syntax--css .syntax--constant {
+  color: #828997;
+}
+.syntax--source.syntax--css .syntax--constant.syntax--support {
+  color: #abb2bf;
+}
+.syntax--source.syntax--css .syntax--constant.syntax--numeric {
+  color: #d19a66;
+}
+.syntax--source.syntax--css .syntax--constant.syntax--media {
+  color: #d19a66;
+}
+.syntax--source.syntax--css .syntax--constant.syntax--color {
+  color: #d19a66;
+}
+.syntax--source.syntax--css .syntax--constant.syntax--offset {
+  color: #abb2bf;
+}
+.syntax--source.syntax--css .syntax--constant.syntax--attribute-value {
+  color: #98c379;
+}
+.syntax--source.syntax--css .syntax--punctuation.syntax--selector {
+  color: #d19a66;
+}
+.syntax--source.syntax--css .syntax--punctuation.syntax--selector.syntax--wildcard {
+  color: #e06c75;
+}
+.syntax--source.syntax--css .syntax--punctuation.syntax--selector.syntax--id {
+  color: #61afef;
+}
+.syntax--source.syntax--css .syntax--punctuation.syntax--selector.syntax--attribute {
+  color: #abb2bf;
+}
+</style>
+        </head>
+        <body class='markdown-preview' data-use-github-style><h2 id="1106x">1106X</h2>
+<h3 id="discuss">Discuss</h3>
+<h4 id="landing-gear-system">Landing Gear System</h4>
+<ul>
+<li>The tricycle configured landing gear system consists of dual-wheel retractable main and nose gear assemblies, tail skid, and a hydraulic system. The landing gear hydraulic system operates on 3,000 psi hydraulic pressure from the utility hydraulic system. The landing gear system has a one-shot pneumatic emergency extension system to lower the gear in case of an electrical or hydraulic malfunction. The landing gear control panel marked LDG GEAR CONT is on the center cockpit console. Electrical power for the landing gear system operation is provided from the No. 2 primary DC bus circuit breaker, marked CONT, under the general heading LANDING GEAR, in the cabin.</li>
+<li>Each main gear assembly is below the sponson and will retract forward and upward into the sponson. Each has dual wheels and hydraulic brakes, plus a drag strut that contains the retracting cylinder downlock mechanisms. There is a fluid indicating pin installed on the top of the shock strut that extends when hydraulic servicing is necessary.</li>
+<li>The dual-wheel nose landing gear assembly is mounted vertically at the centerline of the helicopter and is free to turn 360 degrees about the strut centerline. The nose gear retracts rearward and upward into the nose section of the airframe. The nose gear assembly has dual wheels with a co-rotating shimmy damper, a retracting cylinder ,a pneumatic hydraulic strut and shimmy damper, and attaching drag links and supports. The shimmy damper prevents nose gear vibration during forward motion on the ground. To dampen nose gear vibration further the nosewheels are interconnected with a co-rotating shimmy damper that causes both wheels to rotate together but allows them to split while making turns. An internal centering device, that starts to become effective at 75 percent of nose gear extension, holds the noseewheel centered during flight, to provide proper wheel orientation during landing. There is a fluid indicating pin installed on top of the strut that extends to indicate hydraulic servicing is necessary.</li>
+<li>The retractable tail skid, mounted on the underside of the pylon, aids in the prevention of the tail rotor blades from striking the ground when landing with nose high attitudes. The tail skid is extended and retracted by an electrical actuator attached to the tail skid shock strut. The tail skid is automatically retracted when the main landing gear is retracted, and automatically extend when the main landing gear is down and locked. The electrical system is interconnected with the cargo ramp system and MAIN LANDING GEAR WEIGHT ON WHEELS SCISSOR switches, so that the tail skid, if extended, will automatically retract when the cargo ramp is lowered. The tail skid receives power from the No 1 primary DC bus CB panel in the cabin marked TAIL SKID. A fixed tail bumper actuator strut may be installed in place of the electrical actuator. With the fixed strut in place, the tail skid will remain in the down and locked position during main landing gear or cargo ramp operations</li>
+<li>The landing gear actuating system operates on 3,000 psi hydraulic pressure, supplied by the utility hydraulic system. Placing the landing gear control handle to UP retracts the landing gear, and placing the handle to DN lowers the landing gear. A mechanical spring-loaded downlock engages to lock the landing gear in the down position. Each main landing gear oleo strut has a scissor switch that is opened and closed by the extension and compression of the strut. When the struts are compressed, electrical circuitry does this:</li>
+</ul>
+<ol>
+<li>Disables the landing gear downlock solenoid to prevent inadvertent retraction of landing gear.</li>
+<li>Disables the attitude hold portion of AFCS outer loop, but not cyclic trim, to prevent excessive driving of the cockpit controls.</li>
+<li>Disables the fuel dump and drop tank jettison capability.</li>
+<li>Causes IF Fmode 4 codes to be zeroized when electrical power is removed, if HOLD has not been selected with the MODE 4 code-switch (if not modified by AFC 576).</li>
+<li>Opens the isolation valve.</li>
+<li>Enables generator underfrequency to be displayed by the No 1, No 2, and No 3 GEN caution lights.</li>
+<li>Enables the stick position indicator to operate.</li>
+<li>Enables cg indicator programming.</li>
+<li>Enables the tail skid to retract automatically when the ramp is lowered.</li>
+<li>Enables BMS self-test.</li>
+</ol>
+<ul>
+<li>When struts are extended, the following interlocks are bypassed to permit engine starting in flight: Rotor brake not fully pressurized, mechanical gust-lock engaged, and head not in start position. Strut extension enables AN/ALE-47 operation.</li>
+<li>Two relays associated with the left scissor switch have power furnished by the No 1 primary DC bus through a circuit breaker, marked WT ON WHEELS LHS in the cabin.</li>
+<li>Two similar relays operate for the right side through the No 3 primary DC bus.</li>
+<li>When airborne, the oleo struts extend, closing the contacts of switches to energize the circuits that unlock the landing gear control handle and arm the system for retraction. Raising the landing gear control handle to UP retracts the landing gear, and lights the landing gear warning light in the control handle, while the landing gear indicators on the instrument panel indicate an unsafe (barber pole) condition. when the landing gear is fully retracted, the handle warning light will go off and the gear indicators on the panel will show UP. Lowering the landing gear control handle DN extends the landing gear and lights the landing gear warning light in the control handle, while the landing gear indicators will show an unsafe (barber pole) condition. When the landing gear is fully extended, the landing gear handle warning light will go off and the landing gear indicators on the instrument panel will show a symbol depicting a wheel.</li>
+<li>N: During extension and retraction of the gear, utility hydraulic pressure may drop to 2,000 psi.</li>
+<li>The manually-operated downlock release, marked DN LOCK RELEASE, on the landing gear control panel, provides a mechanical override of the landing gear control handle downlock solenoid in case of an interruption of electrical power to the solenoid. Should the downlock solenoid become inoperative, the downlock release can be actuated to mechanically release the gear control handle from the DN position.</li>
+<li>The gear position indicators operate on DC from the No 2 primary DC bus and are protected by a CB in the cabin marked POS under the general heading LANDING GEAR. During landing gear extension or retraction, when an unsafe condition exists, or whenever electrical power is not available, the indicator show a barber pole.</li>
+<li>The landing gear warning light, in the handle of the landing gear control lever, will go on when any or all landing gear are in transit between the up and down positions, or when one landing gear is not in the position selected by the gear control handle. When all gear are fully up and locked or fully down and locked as selected by the handle, the warning light will go off. The warning light operates on direct current from the No 2 DC primary bus through the gear up warning system. The arning light test button illuminates the lights for a test.</li>
+<li>The <strong>LDG GEAR UP warning light will normally flash, and an ICS pulse tone will be heard in the headset when the gear is up, airspeed is below 60 knots, and radalt is below 150 feet.</strong> With the radalt off or unreliable, the same warnings will be furnished at any altitude with the other conditions are met. The warning can be deactivated by lowering the landing gear, or increasing airspeed, or climbing above 150' AGL with the radalt on. Additionally, the warning can be deactivated by pressing the LDG GEAR UP warning light. However, the warnings will be reactivated any time the collective is lowered to lose altitude. An airspeed sensing switch activates the system below 60 knots and deactivates it above 60 knots. The system senses altitude from the RADALT. The system power circuit is routed through the landing gear limit switches to deactivate the system when the gear is down. The system is powered from the No 1 AC bus.</li>
+<li>N: Helicopters with ground proximity warning system will also give an aural warning, "GEAR UP, GEAR UP" and a visual warning on the caution/advisory panel when the above conditions exist.</li>
+<li>The attitude warning system produces a continuous tone in the headset when the gear is down at low absolute altitude, to prevent damaging the tail skid. This tone alerts the pilot to the fact that the helicopter is approaching a dangerous, nose-high attitude for the flight conditions. Normally, the ICS warning tone is activated by both AFCS computers; however, the system will operate with only one operating. The parameters analyzed by the computers to activate the warning tone are radar altitude, vertical velocity, pitch attitude, and pitch rate. Altitude and vertical velocity are furnished from the radar altimeter, pitch attitude from the AHRS and vertical gyros, and pitch rate from the pitch rate gyro. Curves show the attitude and altitudes at which the AFCS computers will activate the warning tone. Note that for the same nose-up angle the warning is activated at a higher altitude for descent than for ascent. In addition, the system does not operate at nose-up attitudes of less than 7 degrees.</li>
+<li>An external landing gear down light, mounted on the nose gear door, is used to indicate to ground personnel that the landing gear is down and locked. The light will go on any time all landing gear are down and locked, and the exterior light master switch is on. The light operates on DC current from the No 2 primary DC bus.</li>
+<li>An orange-yellow and black colored T-handle on the left side of the center cockpit console is used to lower the landing gear in case of an electrical or hydraulic failure. The T-handle, when turned and pulled, positions a directional valve and discharges a 3000psi preloaded air bottle that drives the actuators to lower the landing gear. After an emergency actuation, the bypass valve must be manually reset before the landing gear air cylinder can be recharged or the landing gear retracted.</li>
+<li>N: Be sure the landing gear control handle is at DOWN before using the emergency T handle. The emergency landing gear system will lower the landing gear in a hover in the same length of time as the normal system, however during forward flight, with an air load on the nose gear door, emergency extension may take from 1 to 2 minutes.</li>
+</ul>
+<h4 id="landing-gear-limitations">Landing Gear Limitations</h4>
+<ul>
+<li>Actuation: 140 KIAS</li>
+<li>Gear down: 150 KIAS</li>
+<li>Sink rate 672 fpm at 46,500 lb</li>
+<li>Sink rate 360 fpm at 69,750 lb.</li>
+<li>Tail skid air/oil shock strut will withstand inadvertent ground contact up to a sink rate of 672 fpm.</li>
+<li>The maximum takeoff and landing speed shall not exceed 40 KGS.</li>
+</ul>
+<h4 id="dynamic-rollover">Dynamic Rollover</h4>
+<ul>
+<li>Avoidance:</li>
+</ul>
+<ol>
+<li>Do all landing, takeoff, and ground maneuvers smoothly, and maintain low roll rates.</li>
+<li>Avoid rapid takeoffs.</li>
+<li>Maintain wheels-level during takeoff and landing.</li>
+<li>on sloping terrain, always lift the downhill wheel first during lift-off.</li>
+<li>Keep the helicopter trimmed laterally during ground contact. Do not permit it to drift.</li>
+<li>If lateral control feels sluggish, reduce collective and check for obstructions.</li>
+<li>To correct roll rate, reduce collective smoothly. Avoid fast collective-drop to prevent blade strike or fuselage bounce.</li>
+<li>Check crosswinds and lateral center of gravity offsets.</li>
+</ol>
+<ul>
+<li>W: When taking off or landing on a rough surface, the helicopter can be subjected to conditions which, with the slightest inattention by the pilot to developing roll rates, can result in almost certain destruction by dynamic rollover. Keep the helicopter under control at all times. When landing or taking off with one wheel touching the ground, use smooth collective motion to maintain low roll rates. Do not allow the helicopter to drift during ground maneuvers.</li>
+<li>Dynamic rollover is the result of the helicopter developing too much angular momentum about a wheel in contact with the ground. It can occur during takeoff and landing on slopes, on corrugated steel matting or macadam, or during  deck launch with one gear still chained. The helicopter can roll over from a level attitude if a high side-ward velocity (drift) occurs at touchdown and the wheel is prevented from sliding. In this condition the upsetting rolling moment is caused by the momentum of the helicopter acting about the wheel ground-contact point. Thus, the wheel restraint converts the linear translation (drift) into an angular motion (roll rate) or angular momentum. The roll rate can be very large, depending on the sink and drift speeds, and the degree of wheel restraint. The resulting roll rate may be checked with lateral cyclic, but lateral control will be sluggish and will be limited by control range. As in slope landing, and in all cases, smooth reduction of collective is the most effective corrective action the pilot can take to prevent dynamic rollover. If lateral cyclic cannot be displaced far enough to tilt the rotor lift line-of-action outside the wheel tread, the rotor lift adds to the upsetting momentum. Since rotor lift opposes the only restoring force, helicopter weight, lift should be reduced. Thus, collective should be lowered if it appears that lateral control is ineffective, even though it has not yet contacted the stop. Since AFCS is limited (10%) authority, and subject to the same reduction in control power, its effectiveness in countering dynamic rollover is severely limited. For this reason, the pilot must observe the following procedures with caution.</li>
+</ul>
+<h4 id="slope-landing-techniquelimitations">Slope landing technique/Limitations</h4>
+<ul>
+<li>Static rollover angle is the angle at which the helicopter will tip over on its side if it is parked on a very steep embankment. <strong>The minimum angle is about 27 degrees.</strong> It occurs when the helicopter is tilted about an axis passing through the nose gear and either main gear ground contact points.</li>
+<li>Critical rollover angle is the maximum angle of slope that can be negotiated in a cross-hill landing or takeoff. At this angle, full lateral cyclic input is required to trim the wheels level with the slope without sliding. <strong>With the left wheel uphill and the brakes on, this angle is about 13 degrees.</strong></li>
+<li>Dynamic rollover is an insidious dynamic condition that can occur during takeoff or landing with one wheel on the ground. It can result in almost certain destruction of the helicopter. It is not definable by a single number, nor is it simply a function of slope angle or lateral control authority. These will aggravate it, but the main contributor to dynamic rollover is the buildup of angular velocity of the helicopter center of gravity about the wheel touching the ground. When the resulting angular momentum of the helicopter is greater than can be countered with full opposite lateral cyclic, the helicopter will roll over. This can occur within 2 seconds. The insidious aspect of dynamic rollover is that the roll rates which precipitate it are within the range the pilot would normally allow in flight.</li>
+<li>There are three major forces involved in slope landings and takeoffs. These are: helicopter weight, rotor lift, and ground reaction (normal and frictional forces). In general, the helicopter is controlled by using collective pitch to balance weight with rotor lift and tilting rotor lift (into the slope) with lateral cyclic, which adds to wheel friction to prevent sliding.</li>
+<li>Slope landings should be made by descending slowly and placing the upslope wheel on the ground first. Then, coordinately lower the collective and move the cyclic into the slope until the downslope wheel is also on the ground. The controls should always be positioned to keep the helicopter from drifting. Continue coordinated movement of collective and lateral cyclic until all of the helicopter weight is resting firmly on the ground. If lateral cyclic control contacts its stop, or if rotor to ground clearance becomes marginal before the downslope wheel is firmly on the ground, return to a hover by slowly raising the collective and centering the cyclic. Select another landing site with a shallower slope. After the slope landing is completed, be sure that the helicopter will not slide downhill, then center lateral cyclic.</li>
+<li>In a cross slope landing with one wheel on the slope, collective provides a significant contribution to roll control. Lateral cyclic still provides a hub moment, but control power (roll acceleration per inch of cyclic) about the wheel is substantially reduced. In this landing condition, the roll center is transferred from the center of gravity to the touchdown wheel, which results in a higher roll inertia. The roll inertia about the ground-contact wheel can be five times greater than the roll inertia about the CG. Therefore, the corresponding control power is about 1/5 of the fully airborne value. Thus, lateral control will feel sluggish. Cross slope landings or takeoffs should not be attempted on slopes steeper than the critical rollover angle of 13 degrees. As explained previously, lateral cyclic is on its stop and the downhill wheel is just touching the ground at this angle.</li>
+<li>Cross slope takeoff should be made by first moving cyclic into the slope to prevent drift. Coordinately raise collective and adjust lateral cyclic to raise the downhill wheel first until the helicopter becomes level and lifts off the ground. Avoid large lateral cyclic displacements when the helicopter becomes airborne, because the roll center will now shift back to the CG and lateral control power will increase five fold. If the helicopter rolls past level into the slope during takeoff, lower collective rapidly but smoothly to avoid dynamic rollover. Set the helicopter back down on the slope and check for a blocked or hung-up wheel.</li>
+<li>Before landing on slopes, the parking brake should be applied.</li>
+<li>Ground contact should be made using a vertical descent.</li>
+<li>Sideward motion of the nose gear should be avoided.</li>
+<li>Landings on slopes up to ~4 degrees differ very little from level landings.</li>
+<li>On slopes greater than 4 degrees, right side upslope is the recommended landing attitude whenever possible. The normal left side low hover attitude makes this easier to accomplish than the other direction. The following is the remaining order of preference:<ul>
+<li>Nose upslope</li>
+<li>Left side upslope</li>
+<li>Nose downslope (tail upslope)</li>
+</ul>
+</li>
+<li>Nose downslope should be avoided due to danger of ground contact of the tail skid and/or rotor.</li>
+<li>N: For slope landings, utility hydraulic pressure can be made available to the wheel brake power boost system by placing the ramp master switch to PILOT, to open the isolation valve.</li>
+<li>W: Dynamic rollover may occur with bank of 15 degrees right upslope or 13 degrees left upslope.</li>
+</ul>
+<h4 id="loss-of-visual-reference-during-landing">Loss of visual reference during Landing</h4>
+<ul>
+<li>To initiate a wave-off following loss of visual reference during landing, proceed as follows:</li>
+</ul>
+<ol>
+<li>*Collective - Increase to climb.</li>
+</ol>
+<ul>
+<li>W: Not only must descent be stopped to prevent impact with the surface, but also a positive rapid climb is necessary to regain visual flight conditions. Any delay may allow drift to develop, which could cause impact with the ground or obstacles.</li>
+<li>W: Consideration should be given to external cargo jettison.</li>
+</ul>
+<ol start="2">
+<li>*Cyclic - Hover attitude (on instruments).</li>
+<li>*Selected Heading - Maintain.</li>
+</ol>
+<h4 id="vortex-ring-state">Vortex Ring State</h4>
+<ul>
+<li>Indications:</li>
+</ul>
+<ol>
+<li>Increase in overall vibration level.</li>
+<li>Sluggish control response.</li>
+<li>Inability to arrest rate of descent with collective</li>
+</ol>
+<ul>
+<li>Procedures<ol>
+<li>*Immediately apply forward cyclic to increase airspeed above 40 KIAS.</li>
+</ol>
+<ul>
+<li>Altitude permitting:</li>
+</ul>
+<ol start="2">
+<li>*Lower the collective to a power setting at or below bucket airspeed power required.</li>
+</ol>
+</li>
+<li>N: A reduction in collective is inadvisable for low altitude flight because it will produce higher descent rates. Instead pilots should maneuver away from the vortex ring using cyclic control while maintaining collective to facilitate recovery from the rapid descent rate developed during VRS.</li>
+<li>N: Maneuvers, in general, are known to suppress the development and symptoms of VRS. If there are no obstacles to the side of the flight path, turning or sliding laterally can assist in the recovery.</li>
+<li>Low airspeed powered flight with high descent rates may result in vortex ring state (VRS). VRS occurs when the rate of descent of the helicopter is approximately equal to the downward speed of the rotor wake. Under these conditions, the rotor wake is recirculated up, around, and back down through the rotor disc, increasing roughness and reducing rotor lift. Once VRS has developed, the pilot may not be able to arrest the rate of descent by increasing collective. VRS can occur when airspeed is less than 40 KIAS and descent rates exceed 800fpm.</li>
+<li>Indications of VRS are above.</li>
+<li>Avoidance of low airspeed high rate of descent maneuvers, especially with a tail wind, is the key to VRS prevention. If a tailwind approach is required, ensure to control the rate of descent. If there are any indications of VRS, wave off the approach early by gaining airspeed.</li>
+<li>N: Wind direction and intensity are important factors to consider with respect to VRS. VRS is more likely to occur during downwind approaches to landing.</li>
+</ul>
+<h4 id="power-required--power-available">Power Required &gt; Power Available</h4>
+<ul>
+<li>Indications:</li>
+</ul>
+<ol>
+<li>Descent Rate (uncommanded) while power limited.</li>
+<li>Reduction in rotor rpm if power demand continues to increase.</li>
+<li>Loss of tail rotor authority.</li>
+</ol>
+<ul>
+<li>Procedures:</li>
+</ul>
+<ol>
+<li>*Collective - Maintain Nr/Reduce torque setting to at or below minimum power available.</li>
+<li>*Airspeed - Adjust cyclic to obtain bucket airspeed.</li>
+<li>*Pickle - External load as required.</li>
+<li>*Tanks - Jettison and/or dump as required.</li>
+<li>*Speed Control Levers - Full Forward.</li>
+<li>Cease banked maneuver and restore to wings level attitude.</li>
+<li>Open EAPS (as required).</li>
+<li>Turn off ENGINE ANTI-ICE (as required).</li>
+</ol>
+<ul>
+<li>An uncommanded descent rate or Nr droop can occur any time that power required exceeds power available. This may occur at high density altitude, high gross weights, or when operating with degraded engine performance. Factors that can cause or aggravate this situation are:</li>
+</ul>
+<ol>
+<li>High G Loading.</li>
+<li>High gross weight.</li>
+<li>High density altitude.</li>
+<li>Rapid maneuvering (Quick Stops).</li>
+<li>Loss of wind effect (descending below a tree line during a confined area landing).</li>
+<li>Change of wind direction (During low airspeed low altitude flight e.g. approach to landing).</li>
+<li>Loss of ground effect (transition to forward flight from a ship deck).</li>
+</ol>
+<ul>
+<li>Power required exceeding power available becomes dangerous to the crew and helicopter when operating in close proximity to obstructions where the pilot may not have enough altitude/maneuvering space to recover prior to impacting an obstacle. This condition will be aggravated by rotor droop and loss of tail rotor effectiveness associated with excessive power demands. Pilots can avoid exceeding power available by:</li>
+</ul>
+<ol>
+<li>Preflight planning to calculate expected aircraft performance.</li>
+<li>Avoid excessive maneuvering, particularly during high altitudes, hot temperatures, and/or high gross weight/marginal power available situations.</li>
+<li>Avoiding high descent rates at low altitudes, which will require large power inputs to arrest the descent of the helicopter.</li>
+<li>Avoiding downwind landings and takeoffs.</li>
+<li>Maintain awareness of wind speed and direction, especially during low altitude/low airspeed maneuvers.</li>
+<li>Maintain awareness of factors leading to power required exceeding power available.</li>
+</ol>
+<h4 id="main-and-tail-rotor-clearance-factors-over-sloping-or-uneven-terrain">Main and tail rotor clearance factors over sloping or uneven terrain</h4>
+<ul>
+<li>C: Slope angles of 5 degrees, with nose-down slope, may cause the tail skid to strike the ground on landing or on rotating for takeoff. This condition is aggravated by tail winds.</li>
+</ul>
+<h4 id="lz-considerations-78131">LZ Considerations (7.8.13.1)</h4>
+<ul>
+<li>Always check the site for wind direction, velocity, and obstacles before attempting to landing.</li>
+<li>Size</li>
+<li>Suitability</li>
+<li>Slope</li>
+<li>Wind/Loss of wind effect</li>
+<li>Egress</li>
+<li>Power Required vs Power Available</li>
+</ul>
+<h4 id="mfcd-hover-display">MFCD Hover Display</h4>
+<ul>
+<li>See attached pages: NATIP 3-22.4 Hover Display (1096-1099)</li>
+</ul>
+<h3 id="practice">Practice</h3>
+<h4 id="precision-approaches-to-confined-areas">Precision Approaches to Confined Areas</h4>
+<ul>
+<li>Fly 300', 80 kias in the downwind.</li>
+<li>Arrive at the 90 at 60 kias and 300 AGL.</li>
+<li>Intercept final at 300' AGL and 40-45 KGS.</li>
+<li>Glidepath:<ul>
+<li>125' 25 KTS</li>
+<li>Trim ~6-8 degrees nose up wings level.</li>
+<li>100' 20 KTS</li>
+<li>75' 15 KTS</li>
+<li>50' 10 KTS</li>
+<li>25' 5 KTS</li>
+</ul>
+</li>
+</ul></body>
+      </html>
